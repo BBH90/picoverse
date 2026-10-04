@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pico ti saluta!</title>
+<meta name="description" content="La sorpresa finale del libro Il Viaggio Spaziale di Pico.">
+<style>
+  :root { --sky:#0e163a; --gold:#ffd64a; --text:#eef1ff; }
+  * { box-sizing:border-box; }
+  body { margin:0; min-height:100vh; background:var(--sky) radial-gradient(circle at 50% 0%, #26306b 0%, var(--sky) 60%);
+         color:var(--text); font-family:"Arial Rounded MT Bold", "Nunito", system-ui, sans-serif;
+         display:flex; flex-direction:column; align-items:center; padding:20px 16px 32px; text-align:center; }
+  h1 { color:var(--gold); font-size:clamp(28px,7vw,44px); margin:8px 0 4px; letter-spacing:.5px; }
+  p.sub { margin:0 0 18px; font-size:clamp(15px,4vw,18px); opacity:.9; }
+  .player { width:100%; max-width:420px; border-radius:22px; overflow:hidden; box-shadow:0 10px 40px rgba(0,0,0,.45);
+            border:3px solid rgba(255,214,74,.6); background:#000; }
+  video { display:block; width:100%; height:auto; }
+  .tip { margin-top:14px; font-size:14px; opacity:.75; }
+  footer { margin-top:26px; font-size:14px; opacity:.7; }
+  footer b { color:var(--gold); }
+</style>
+</head>
+<body>
+  <h1>Pico ti saluta! ✨</h1>
+  <p class="sub">Hai completato il viaggio… ecco la sorpresa finale!</p>
+  <div class="player">
+    <video src="pico-ti-saluta.mp4" poster="poster.jpg" controls playsinline preload="metadata"></video>
+  </div>
+  <p class="tip">Premi ▶ per guardare il video</p>
+  <footer><b>Picoverse Press</b> · Il Viaggio Spaziale di Pico</footer>
+</body>
+</html>
