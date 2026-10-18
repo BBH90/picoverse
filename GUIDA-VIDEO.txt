@@ -6,28 +6,16 @@ Dopo ogni clip: caricala in picoverse/clip/ (es. clip/C0.mp4) -> la analizziamo 
 prepara l'immagine d'inizio della clip successiva.
 
 *** PROSSIMO PASSO: SI CHIUDE IL FINALE (poi si riparte da C0) ***
- Il montaggio.mp4 resta com'e' fino alla porta che si chiude (33,8 s): la C7b attuale si TIENE
- (Pico entra in casa col casco in testa; la cupola sul razzo e' l'abitacolo del razzo). La C8a non serve piu'.
- 1) IMMAGINE C8b_INIZIO.png (nuova, da generare) — vedi sezione "IMMAGINE C8b_INIZIO" qui sotto
- 2) C8b.mp4  INIZIO: C8b_INIZIO.png   ULTIMO: C1_INIZIO.png
- 3) C9.mp4   INIZIO: C1_INIZIO.png    ULTIMO: (nessuna)
- Poi Claude cuce: montaggio.mp4 (fino a 33,8 s) -> C8b -> C9 + frase finale.
-
-=========================== IMMAGINE C8b_INIZIO.png (da generare su LEONARDO.AI) ===========================
-Formato 16:9 · 4 immagini · Riferimenti:
- - C1_INIZIO.png = la camera (deve restare identica)
- - RIF_PICO.png  = Pico intero con tuta e casco (ritagliato dal montaggio)
-Modello: se c'e' Nano Banana (o FLUX Kontext) usa quello e allega le due immagini come riferimento (questi modelli non
- hanno il negative prompt: aggiungi in fondo al prompt la riga "Avoid: ..." qui sotto).
- Altrimenti Phoenix / Lucid Origin con Image Guidance: Content Reference = C1_INIZIO.png (forza ALTA),
- Character Reference = RIF_PICO.png (forza MEDIA), Style Reference = C1_INIZIO.png (forza MEDIA).
-PROMPT:
-Children's book cartoon illustration, the exact same cozy bedroom as the reference image: same camera angle and framing, wooden bed with headboard, blue pillow, the blue blanket with big golden stars folded back so the bed is empty, wooden nightstand with a warm table lamp, window on the right with a snowy night outside, orange curtains, dark blue starry wallpaper, small hanging planets. The top of the nightstand is empty, no helmet on it. The little mint-blue cartoon character Pico from the character reference stands on the floor next to the bed, full body visible from head to feet, facing the camera with a sleepy happy smile: pale mint-blue skin, big coral leaf-shaped gills, rosy cheeks, big dark shiny eyes, white space suit, wearing his round clear glass space helmet with grey ear pieces and a blue rim. Warm night lighting, same colors and soft cartoon style as the reference.
-NEGATIVE PROMPT:
-pink skin, pink body, black and white, line art, sketch, helmet on the nightstand, two helmets, second character, rocket, person in the bed, different room, different camera angle, cropped body, cut off feet, extra limbs, extra fingers, deformed face, realistic, 3D render, photo, text, letters, watermark, logo, blurry
-NOMI E CARICAMENTO: le 4 versioni si chiamano C8b_INIZIO_v1.png, C8b_INIZIO_v2.png, C8b_INIZIO_v3.png, C8b_INIZIO_v4.png
- (ordine come le mostra Leonardo, da sinistra a destra). Caricale su picoverse, ramo main, cartella principale
- (come gli altri file). Claude sceglie la migliore e la rinomina C8b_INIZIO.png.
+ Il montaggio.mp4 resta com'e' fino alla porta che si chiude (33,8 s): la C7b attuale si TIENE.
+ Le immagini Leonardo (C8b_INIZIO_v1-v4) NON servono: stanza diversa da C1_INIZIO e Pico gia' a letto.
+ In C1_INIZIO Pico riempie l'inquadratura e il pavimento non si vede: un'immagine "Pico in piedi, stessa camera"
+ non si puo' ottenere bene. Quindi NIENTE immagine nuova:
+ 1) C8b-R.mp4 (Firefly)  INIZIO: C1_INIZIO.png   ULTIMO: (nessuna)
+    Si genera l'azione AL CONTRARIO (si sveglia, scende, mette il casco); Claude la monta all'indietro:
+    nel video Pico col casco -> lo posa sul comodino -> si infila nel letto -> chiude gli occhi.
+    Ultimo fotogramma garantito = C1_INIZIO, quindi si attacca perfetto alla C9.
+ 2) C9.mp4 (Firefly)     INIZIO: C1_INIZIO.png   ULTIMO: (nessuna)
+ Poi Claude cuce: montaggio.mp4 (fino a 33,8 s) -> C8b-R al contrario -> C9 + frase finale.
 
 REGOLE
 - L'AI anima solo DENTRO UNA SCENA (stesso sfondo dall'inizio alla fine). I cambi di scena sono tagli tra due clip,
@@ -46,14 +34,13 @@ STORIA IN BREVE
 
 FATTE E BUONE (in montaggio.mp4): C4, C5, C6bis + nuvole, C7, C7b fino alla porta chiusa (33,8 s).
 SI TIENE anche la C7b (entra in casa, fino a 33,8 s). SOSTITUITA: C3bis (partiva dal giardino).
-DA FARE, IN QUEST'ORDINE: C8b -> C9 (finale)  poi  C0 -> C1 -> C2a -> C2b -> C3 (inizio)
+DA FARE, IN QUEST'ORDINE: C8b-R -> C9 (finale)  poi  C0 -> C1 -> C2a -> C2b -> C3 (inizio)
 
 IMMAGINI
  C0_INIZIO.png  = pagina 29 del libro in B/N (gia' presente)
  C0_FINE.png    = C1_INIZIO.png, la stessa camera a colori (gia' presente)
  C3_INIZIO.png  = Pico sul razzo accanto alla finestra di sinistra, preso dal montaggio (gia' presente)
- C7b_INIZIO.png = Pico appena atterrato (serve solo come riferimento del personaggio per C8b_INIZIO)
- C8b_INIZIO.png = NUOVA, da generare (Pico in camera col casco, comodino vuoto)
+ C7b_INIZIO.png = Pico appena atterrato (riferimento del personaggio)
  C2a_INIZIO / C2b_INIZIO = ultimi fotogrammi delle clip generate: li estrae Claude
 
 =========================== C0 — La pagina del libro prende vita -> C0.mp4 ===========================
@@ -86,11 +73,12 @@ INIZIO: C7b_INIZIO.png (Pico appena atterrato)      ULTIMO: (nessuna)
 The same snowy winter night garden in front of the cozy house the whole time; static wide camera, the house never changes; snowflakes fall. The little mint-blue cartoon character Pico, with pale mint-blue skin, coral gills, a round glass helmet and a WHITE space suit, has just landed on his small white and red rocket in the snow. He hops off into the snow with a little puff of snowflakes and gives the rocket a gentle pat goodnight: its little flame flickers and goes out with a tiny puff of smoke, as if the rocket falls asleep. Pico turns to the camera, gives a big sleepy yawn and waves. Keeping his round glass helmet on his head, he waddles across the snowy garden to the front door, opens it and goes inside; the door closes behind him and the windows glow with warm light. The small rocket stays exactly as it is, parked on the snow, and never changes shape or size. His skin stays pale mint-blue and his suit stays white in every moment; he never turns pink. Keep the exact same character design, colors and cartoon style. Smooth continuous motion, no cuts, no fading, no text.
 FINE ATTESA: porta chiusa, finestre illuminate, razzo parcheggiato. (Taglio -> C8b: Pico e' in camera.)
 
-=========================== C8b — Il casco sul comodino e la nanna -> C8b.mp4 ===========================
-INIZIO: C8b_INIZIO.png (immagine nuova, vedi sopra)      ULTIMO: C1_INIZIO.png
-(Il cerchio si chiude: finisce nella stessa immagine con cui inizia la C1.)
-The same cozy bedroom the whole time; static camera. The little mint-blue cartoon character Pico (pale mint-blue skin, coral gills, rosy cheeks, white space suit, never pink) has just come home, wearing his round glass space helmet. He lifts the helmet off with both hands and his coral gills spring out and fluff up; he places the helmet gently back on the nightstand next to the lamp and gives it a little pat goodnight. He gives a huge sleepy yawn, climbs into his bed, pulls the blue starry blanket up to his chin, closes his eyes and falls asleep with a sweet smile. Everything stays in full bright colors the whole time: he never turns pink and never turns black and white. Keep the exact same character design, colors and cartoon style. Smooth continuous motion, no cuts, no morphing, no text.
-FINE ATTESA: esattamente C1_INIZIO (Pico che dorme a colori, casco sul comodino).
+=========================== C8b-R — La nanna (generata al contrario) -> C8b-R.mp4 ===========================
+INIZIO: C1_INIZIO.png      ULTIMO: (nessuna)
+(Claude la monta all'indietro: Pico posa il casco sul comodino, si corica, si addormenta. Movimenti lenti e
+ nessun elemento che si muove da solo, cosi' al contrario non si nota.)
+Static camera; the bedroom never changes and nothing moves except the character. The little mint-blue cartoon character Pico (pale mint-blue skin, coral gills, rosy cheeks, white space suit, never pink) is asleep in his bed under the blue starry blanket. He slowly opens his eyes, pushes the blanket aside and climbs out of bed towards the nightstand on the right. He picks up his round glass space helmet from the nightstand with both hands and puts it on his head, then stands next to the bed facing the camera with a gentle smile and stays still for the last second. Slow, calm, simple movements. The lamp light stays steady, no falling snow outside, no flickering, no camera movement. Keep the exact same character design, colors and cartoon style. Smooth continuous motion, no cuts, no morphing, no text.
+FINE (dopo il montaggio all'indietro): esattamente C1_INIZIO.
 
 =========================== C9 — Sogni d'oro (sotto la frase finale) -> C9.mp4 ===========================
 INIZIO: C1_INIZIO.png (= fine di C8b)      ULTIMO: (nessuna)
@@ -111,6 +99,6 @@ MONTAGGIO — Claude cuce soltanto le clip, una dopo l'altra
  C2b -> C3        : taglio sull'azione (il razzo sfreccia via dalla finestra / fuori, Pico accanto alla finestra)
  C3 -> C4         : taglio sull'azione (il razzo esce in alto dal cielo di casa / sale sopra la Terra)
  C4 ... C7b       : montaggio.mp4 com'e' adesso, fino alla porta chiusa (33,8 s)
- C7b -> C8b       : taglio sull'azione (la porta si chiude / Pico gia' in camera col casco)
- C8b -> C9        : stesso fotogramma + frase finale in sovrimpressione
+ C7b -> C8b-R     : taglio sull'azione (la porta si chiude / Pico gia' in camera col casco)
+ C8b-R -> C9      : stesso fotogramma (C1_INIZIO) + frase finale in sovrimpressione
  Claude taglia solo i pezzi difettosi o lenti di ogni clip; nessuna scena aggiunta in montaggio.
