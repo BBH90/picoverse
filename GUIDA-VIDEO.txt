@@ -1,0 +1,38 @@
+FASE 2 — VIDEO su Adobe Firefly (una clip al giorno) — REGOLA NUOVA
+==================================================================
+Impostazioni SEMPRE uguali: Veo 3.1 Lite · 720p · Widescreen 16:9 · 8 secondi · Audio OFF · Seed vuoto
+Salva in Desktop/PICO-VIDEO/Montaggio col nome indicato. Mandami lo screenshot prima di Genera.
+
+REGOLA NUOVA (garantisce la linearita'): l'AI anima solo DENTRO UNA SCENA (stesso sfondo dall'inizio
+alla fine). I cambi di scena (spazio -> casa, camera -> giardino...) li fa Claude in montaggio con il
+"cambio pagina" pulito, come tra C5 e C6. Cosi' l'AI non deve mai fondere due mondi = niente sdoppiamenti.
+
+FATTE E BUONE: C4, C5 (fino al fotogramma 166), C6bis (fino a 6 s) + tuffo tra le nuvole (Claude), C7 (fino all'atterraggio, 2,8 s: poi Pico diventava ROSA). Scartate: C3, C6.
+ATTENZIONE: la parola 'axolotl' spinge l'AI a farlo ROSA (gli axolotl veri sono rosa): da ora nei prompt e' 'the little mint-blue character' e il colore e' ripetuto.
+DA FARE: C7b -> C1 -> C2 -> C3bis   (4 giorni)
+
+=========================== C7b — Scende dal razzo ed entra in casa -> C7b.mp4 ===========================
+INIZIO: C7b_INIZIO.png (Pico appena atterrato)      ULTIMO: (nessuna)
+The same snowy winter night garden in front of the cozy house the whole time; static wide camera, the house never changes; snowflakes fall. The little mint-blue cartoon character Pico, with pale mint-blue skin, coral gills, a round glass helmet and a WHITE space suit, has just landed on his small white and red rocket in the snow. He hops off the small rocket onto the snow, gives it a gentle pat goodbye and waves happily at the camera; the small rocket stays exactly as it is, parked on the snow, and never changes shape or size. Then he walks happily across the snowy garden to the front door, opens it and goes inside; the door closes behind him and the windows glow with warm light. His skin stays pale mint-blue and his suit stays white in every moment; he never turns pink. Keep the exact same character design, colors and cartoon style. Smooth continuous motion, no cuts, no fading, no text.
+
+=========================== C1 — Sveglia -> C1.mp4 ===========================
+INIZIO: C1_INIZIO.png      ULTIMO: (nessuna)
+Static camera with a very slow gentle push-in; the bedroom never changes. The little mint-blue cartoon character Pico (pale mint-blue skin, coral gills, white space suit) is sleeping peacefully in his bed under the starry blanket. First he slowly opens his eyes and yawns. Then he stretches his little arms and sits up in bed. Finally he turns his head to the window on the right, where one bright star twinkles in the night sky, and smiles excitedly. Only the axolotl moves; the room, the bed, the helmet on the nightstand and the window stay exactly the same. Keep the exact same character design, colors and cartoon style. Smooth continuous motion, no cuts, no morphing, no text.
+
+=========================== C2 — Il razzo alla finestra -> C2.mp4 ===========================
+INIZIO: ultimo fotogramma di C1 (C2_INIZIO.png, LO PREPARA CLAUDE)      ULTIMO: (nessuna)
+The same cozy bedroom the whole time; static camera. Outside the window on the right, his small red and white rocket gently flies up and waits, its little flame glowing. The little mint-blue cartoon character Pico (pale mint-blue skin, coral gills, white space suit, never pink) jumps out of bed, takes his round glass space helmet from the nightstand and puts it on, then walks to the window, opens it and climbs out onto the small rocket, sitting astride it and waving; finally the small rocket flies away out of the window and out of sight. The rocket keeps exactly the same small shape and never turns into a different rocket. Keep the exact same character design, colors and cartoon style. Smooth continuous motion, no cuts, no fading, no text.
+
+=========================== C3bis — Decollo (rifacimento) -> C3bis.mp4 ===========================
+INIZIO: C3bis_INIZIO.png      ULTIMO: (nessuna)
+The same snowy winter night garden in front of the cozy house the whole time; the camera slowly tilts up. The little mint-blue cartoon character Pico (pale mint-blue skin, coral gills, white space suit, round glass helmet, never pink) sits astride his small red and white rocket in front of the house and waves goodbye; the small flame under the rocket lights up. The SAME small rocket with the axolotl sitting on top lifts off, rises past the snowy roof and the chimney and flies up into the starry night sky until it becomes a tiny dot among the stars. He is clearly visible sitting on top of the small rocket in every moment: the rocket never changes shape, never turns into a bigger or different rocket, and he never goes inside it. Keep the exact same character design, colors and cartoon style. Smooth continuous motion, no cuts, no fading, no text.
+
+MONTAGGIO DEFINITIVO — ogni giunzione e' gia' decisa:
+ Intro: pagina B/N di Pico che dorme si colora (Claude)
+ C1 -> C2 : stesso fotogramma (C2 parte dall'ultimo di C1)
+ C2 -> C3bis : "taglio sull'azione" — Pico esce dalla finestra col razzo / lo vediamo fuori davanti a casa
+ C3bis -> C4 : "taglio sull'azione" — il razzo sparisce in alto nel cielo / riappare nello spazio sopra la Terra
+ C4 -> C5 -> C6bis : stesso fotogramma (continuo)
+ C6bis -> C7 : "taglio sull'azione" — si tuffa fuori dal basso / rientra dall'alto nel cielo sopra casa
+ C7 -> C8a : stesso fotogramma
+ C8a -> finale : la porta si chiude / Pico gia' a letto che dorme, il colore svanisce e torna la pagina B/N + "Buon Natale!" (Claude)
