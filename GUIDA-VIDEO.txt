@@ -1,22 +1,22 @@
-FASE 2 — VIDEO su Adobe Firefly (una clip al giorno) — VERSIONE 2 (nuovo inizio + nuovo finale)
+FASE 2 — VIDEO su Adobe Firefly (una clip al giorno) — VERSIONE 2 (tutte le scene sono clip Firefly da 8 s; Claude cuce soltanto)
 ==================================================================================================
 Impostazioni SEMPRE uguali: Veo 3.1 Lite · 720p · Widescreen 16:9 · 8 secondi · Audio OFF · Seed vuoto
 Salva in Desktop/PICO-VIDEO/Montaggio col nome indicato. Mandami lo screenshot prima di Genera.
 
 REGOLA (linearita'): l'AI anima solo DENTRO UNA SCENA (stesso sfondo dall'inizio alla fine).
-I cambi di scena (camera -> giardino, giardino -> spazio...) li fa Claude in montaggio.
+I cambi di scena (camera -> giardino, giardino -> spazio...) sono tagli secchi tra una clip e l'altra.
 Nei prompt MAI la parola 'axolotl' (lo fa diventare ROSA): si scrive sempre 'the little mint-blue character'.
 
 STORIA IN BREVE
- La pagina 29 del libro (Pico che dorme, in bianco e nero) prende colore -> Pico si sveglia ->
+ C0: la pagina 29 del libro (Pico che dorme, in bianco e nero) prende colore -> Pico si sveglia ->
  prende il casco dal comodino -> il razzo arriva alla finestra -> ci sale e vola via -> decollo
  sopra la casa -> [MONTAGGIO GIA' FATTO: C4 Terra, C5 Luna, C6bis Saturno e amici, C7 atterraggio] ->
  saluta il razzo ed entra in casa -> in camera posa il casco sul comodino, si corica e si riaddormenta
- RESTANDO COLORATO -> frase finale in sovrimpressione.
+ RESTANDO COLORATO -> C9: dorme sereno, frase finale in sovrimpressione.
 
 FATTE E BUONE (in montaggio.mp4): C4, C5, C6bis + nuvole, C7 fino all'atterraggio (25,5 s del montaggio).
 SOSTITUITE: C7b (Pico lasciava il casco sul razzo e la storia finiva sulla porta) e C3bis (partiva dal giardino).
-DA FARE, IN QUEST'ORDINE: C1 -> C2a -> C2b -> C3 -> C8a -> C8b  (+ C9 e C0 facoltative)
+DA FARE, IN QUEST'ORDINE: C0 -> C1 -> C2a -> C2b -> C3 -> C8a -> C8b -> C9
  C2a parte dall'ultimo fotogramma di C1; C2b e C8b partono dall'ultimo fotogramma di C2a
  (li estrae Claude: mandami la clip appena e' fatta).
 
@@ -27,12 +27,7 @@ IMMAGINI
  C7b_INIZIO.png = Pico appena atterrato in giardino: ora fa da INIZIO della C8a (gia' presente)
  C2a_INIZIO / C2b_INIZIO / C8b_INIZIO = li prepara Claude dalle clip generate
 
-=========================== INTRO — La pagina prende colore (Claude, locale, 4 s) ===========================
-Pagina 29 B/N con lenta spinta in avanti -> lampo bianco "magico" -> la stessa camera a colori (C0_FINE).
-Anteprima gia' pronta: anteprime/INTRO_anteprima.mp4. Finisce esattamente su C1_INIZIO, quindi C1 si attacca senza stacco.
-
-=========================== C0 (FACOLTATIVA) — Il disegno si colora -> C0.mp4 ===========================
-Da provare solo se vuoi un'intro "dipinta" al posto del lampo bianco.
+=========================== C0 — La pagina del libro prende vita -> C0.mp4 ===========================
 INIZIO: C0_INIZIO.png      ULTIMO: C0_FINE.png
 A black and white coloring book page magically comes to life. Static camera with a very slow gentle push-in. Starting from the rosy cheeks of the little sleeping character, soft watercolor colors spread across the drawing like paint filling the lines: the blanket turns deep blue with golden stars, the walls become a starry night blue, the lamp glows warm, the window fills with a snowy night sky. Tiny golden sparkles float in the air. The little mint-blue cartoon character Pico (pale mint-blue skin, coral gills, rosy cheeks) keeps sleeping peacefully with closed eyes and a gentle smile the whole time and does not move; his skin becomes pale mint-blue, never pink. Smooth continuous magical transformation, no cuts, no text.
 
@@ -61,29 +56,26 @@ INIZIO: C8b_INIZIO.png (ultimo fotogramma di C2a, LO PREPARA CLAUDE)      ULTIMO
 (Il cerchio si chiude: parte da Pico in piedi col casco, come quando e' partito, e finisce nella stessa immagine dell'inizio.)
 The same cozy bedroom the whole time; static camera. The little mint-blue cartoon character Pico (pale mint-blue skin, coral gills, rosy cheeks, white space suit, never pink) has just come home, wearing his round glass space helmet. He takes off the helmet with both hands and gently places it back on the nightstand next to the lamp. He gives a big sleepy yawn, climbs into his bed, pulls the blue starry blanket up to his chin, closes his eyes and falls asleep with a sweet smile. Everything stays in full bright colors the whole time: he never turns pink and never turns black and white. Keep the exact same character design, colors and cartoon style. Smooth continuous motion, no cuts, no morphing, no text.
 
-=========================== C9 (FACOLTATIVA) — Sogni d'oro -> C9.mp4 ===========================
-Serve solo come sfondo "vivo" sotto la frase finale; senza C9 uso l'immagine ferma (come nell'anteprima).
+=========================== C9 — Sogni d'oro (sotto la frase finale) -> C9.mp4 ===========================
 INIZIO: C1_INIZIO.png      ULTIMO: (nessuna)
 Static camera with a very slow gentle push-in; the bedroom never changes. The little mint-blue cartoon character Pico (pale mint-blue skin, coral gills, rosy cheeks, never pink) sleeps peacefully in his bed with a sweet smile; he breathes slowly and the blue starry blanket gently rises and falls. Outside the window on the right a small shooting star crosses the night sky and the lamp glows softly. He never wakes up and never moves from the bed; the room, the round glass helmet on the nightstand and the window stay exactly the same. Keep the exact same character design, colors and cartoon style. Smooth continuous motion, no cuts, no morphing, no text.
 
-=========================== OUTRO — Frase finale (Claude, locale, ~7 s) ===========================
-Pico resta COLORATO nel letto (ultimo fotogramma di C8b, o C9). Sopra, con dissolvenza riga per riga:
+=========================== FRASE FINALE (sovrimpressione su C9) ===========================
+Claude aggiunge solo il testo sopra la C9 (Pico resta colorato):
    "I colori che gli hai regalato
     restano per sempre.
          Buon Natale!"
-Anteprima gia' pronta: anteprime/OUTRO_anteprima.mp4.
 Frasi alternative, se preferisci:
  - "Pico e' tornato a casa... e sogna gia' il suo prossimo viaggio!" (la stessa della pagina 29 del libro)
  - "Ogni volta che colori, Pico riparte. Buon Natale!"
  - "Grazie per aver colorato con lui! Buonanotte, Pico."
 
-MONTAGGIO DEFINITIVO — ogni giunzione e' gia' decisa
- INTRO -> C1      : stesso fotogramma (l'intro finisce su C1_INIZIO)
- C1 -> C2a -> C2b : stesso fotogramma
- C2b -> C3        : "taglio sull'azione" — il razzo vola via dalla finestra / lo vediamo fuori, accanto alla finestra
- C3 -> C4         : il razzo diventa un puntino tra le stelle -> nuvole (il "tuffo" al contrario, Claude) -> C4 sopra la Terra
- C4 -> C5 -> C6bis -> nuvole -> C7 : montaggio.mp4 com'e' adesso, fino all'atterraggio (25,5 s)
+MONTAGGIO — Claude cuce soltanto le clip, una dopo l'altra (nessuna scena inventata in montaggio)
+ C0 -> C1 -> C2a -> C2b : stesso fotogramma (ogni clip parte dall'ultima immagine della precedente)
+ C2b -> C3        : taglio secco (il razzo esce dalla finestra / lo vediamo fuori accanto alla finestra)
+ C3 -> C4         : taglio secco (puntino tra le stelle / razzo sopra la Terra)
+ C4 ... C7        : montaggio.mp4 com'e' adesso, fino all'atterraggio (25,5 s)
  C7 -> C8a        : stesso fotogramma
- C8a -> C8b       : la porta si chiude / zoom lento nella finestra illuminata di sinistra + dissolvenza (Claude) -> in camera
- C8b -> (C9) -> OUTRO : stesso fotogramma, Pico resta colorato + frase finale
- Durata: circa 85-95 s; in montaggio taglio le parti lente di ogni clip.
+ C8a -> C8b       : taglio secco (la porta si chiude / Pico in camera)
+ C8b -> C9        : stesso fotogramma + frase finale in sovrimpressione
+ Tutte le clip: 8 s da Firefly; Claude taglia solo eventuali pezzi difettosi.
