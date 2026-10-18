@@ -10,14 +10,7 @@ prepara l'immagine d'inizio della clip successiva.
  Quindi C1_INIZIO.png NON si usa piu' come camera (resta solo come riferimento di stile): al suo posto CAMERA_COLORI.png (passo 0).
  PAGINA29_BN.png = la pagina 29 ritagliata in 16:9 (preparata da Claude) = INIZIO della C0.
 
- PASSO 0 — IMMAGINE CAMERA_COLORI.png (Firefly -> Genera immagine, 16:9, 4 versioni)
-   Riferimento COMPOSIZIONE = PAGINA29_BN.png (intensita' MASSIMA)
-   Riferimento STILE        = C1_INIZIO.png   (intensita' alta)
-   Prompt:
-Color this exact black and white coloring page drawing: keep every line, shape and position exactly the same, same framing, same bed, pillow, blanket, little dresser, helmet and window. Children's book cartoon illustration with soft rich colors and warm cozy night lighting: dark blue night wall with tiny golden stars, wooden bed, light blue pillow, deep blue blanket with golden stars, wooden dresser, round clear glass space helmet with blue and white details on the dresser, window with a snowy night sky full of stars. The little sleeping character Pico has pale mint-blue skin, coral-pink leaf-shaped gills, rosy cheeks, eyes closed and a gentle smile. Clean cartoon style with thin dark outlines, no text.
-   (Se usi Leonardo: un solo riferimento = PAGINA29_BN.png come Content Reference forza HIGH; negative prompt:
-    different composition, extra objects, pink skin, black and white, sketch, realistic, 3D render, photo, text, watermark, blurry)
-   Nomi: CAMERA_COLORI_v1.png ... CAMERA_COLORI_v4.png -> picoverse, ramo main, cartella principale. Claude sceglie.
+ PASSO 0 — FATTO: CAMERA_COLORI.png = pagina 29 colorata (linee identiche al disegno, colori chiari a tema spazio).
 
  POI, partendo da CAMERA_COLORI.png:
  1) C8b-R.mp4 (Firefly)  INIZIO: CAMERA_COLORI.png   (generata al contrario, Claude la monta all'indietro)
@@ -46,7 +39,7 @@ DA FARE, IN QUEST'ORDINE: C8b-R -> C9 (finale)  poi  C0 -> C1 -> C2a -> C2b -> C
 
 IMMAGINI
  PAGINA29_BN.png   = pagina 29 del libro in B/N, 16:9 (gia' presente)
- CAMERA_COLORI.png = la stessa pagina colorata nello stile del video (da creare, passo 0)
+ CAMERA_COLORI.png = la stessa pagina colorata (gia' presente)
  C3_INIZIO.png  = Pico sul razzo accanto alla finestra di sinistra, preso dal montaggio (gia' presente)
  C2a_INIZIO / C2b_INIZIO = ultimi fotogrammi delle clip generate: li estrae Claude
 
