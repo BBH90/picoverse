@@ -48,7 +48,6 @@ IMMAGINI
  PAGINA29_BN.png   = pagina 29 del libro in B/N, 16:9 (gia' presente)
  CAMERA_COLORI.png = la stessa pagina colorata nello stile del video (da creare, passo 0)
  C3_INIZIO.png  = Pico sul razzo accanto alla finestra di sinistra, preso dal montaggio (gia' presente)
- C7b_INIZIO.png = Pico appena atterrato (riferimento del personaggio)
  C2a_INIZIO / C2b_INIZIO = ultimi fotogrammi delle clip generate: li estrae Claude
 
 =========================== C0 — La pagina del libro prende vita -> C0.mp4 ===========================
@@ -75,11 +74,6 @@ FINE ATTESA: finestra aperta e vuota, tende che si muovono, scia di scintille. (
 INIZIO: C3_INIZIO.png      ULTIMO: (nessuna)
 The same snowy winter night garden in front of the cozy house the whole time; the camera slowly tilts up, following him. The little mint-blue cartoon character Pico (pale mint-blue skin, coral gills, white space suit, round glass helmet, never pink) sits astride his small white and red rocket, hovering next to the house with its little flame glowing. He waves goodbye to the house, then the SAME small rocket swirls once around the chimney, curling the chimney smoke into a spiral, and shoots straight up into the starry night sky, leaving a long trail of golden sparkles, until it flies out of the top of the frame. He is clearly visible sitting on top of the small rocket in every moment: the rocket never changes shape, never turns into a bigger or different rocket, and he never goes inside it. Keep the exact same character design, colors and cartoon style. Smooth continuous motion, no cuts, no fading, no text.
 FINE ATTESA: cielo stellato con la scia di scintille, il razzo appena uscito in alto. (Taglio -> C4: il razzo sale sopra la Terra.)
-
-=========================== C8a — NON SERVE PIU' (si tiene la C7b del montaggio) — lasciata solo come riserva ===========================
-INIZIO: C7b_INIZIO.png (Pico appena atterrato)      ULTIMO: (nessuna)
-The same snowy winter night garden in front of the cozy house the whole time; static wide camera, the house never changes; snowflakes fall. The little mint-blue cartoon character Pico, with pale mint-blue skin, coral gills, a round glass helmet and a WHITE space suit, has just landed on his small white and red rocket in the snow. He hops off into the snow with a little puff of snowflakes and gives the rocket a gentle pat goodnight: its little flame flickers and goes out with a tiny puff of smoke, as if the rocket falls asleep. Pico turns to the camera, gives a big sleepy yawn and waves. Keeping his round glass helmet on his head, he waddles across the snowy garden to the front door, opens it and goes inside; the door closes behind him and the windows glow with warm light. The small rocket stays exactly as it is, parked on the snow, and never changes shape or size. His skin stays pale mint-blue and his suit stays white in every moment; he never turns pink. Keep the exact same character design, colors and cartoon style. Smooth continuous motion, no cuts, no fading, no text.
-FINE ATTESA: porta chiusa, finestre illuminate, razzo parcheggiato. (Taglio -> C8b: Pico e' in camera.)
 
 =========================== C8b-R — La nanna (generata al contrario) -> C8b-R.mp4 ===========================
 INIZIO: CAMERA_COLORI.png      ULTIMO: (nessuna)
