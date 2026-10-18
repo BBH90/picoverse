@@ -56,7 +56,7 @@ FINE ATTESA: Pico seduto nel letto, guarda la finestra sorridendo.
 =========================== C2a — Il casco -> C2a.mp4 ===========================
 INIZIO: C2a_INIZIO.png (ultimo fotogramma di C1)      ULTIMO: (nessuna)
 The same cozy bedroom the whole time; static camera. The little mint-blue cartoon character Pico (pale mint-blue skin, coral gills, rosy cheeks, white space suit, never pink) kicks off the blanket and hops out of bed with a little bounce. He tiptoes to the nightstand, picks up his round glass space helmet with the blue rim, breathes on the glass and polishes it with his arm, then plops it on his head: it wobbles for a moment and settles. He taps the glass twice, turns to the camera, standing next to the bed in full view, and gives a proud thumbs up. The helmet stays clear glass with a blue rim; the room, the bed, the lamp and the window stay exactly the same. Keep the exact same character design, colors and cartoon style. Smooth continuous motion, no cuts, no morphing, no text.
-FINE ATTESA: Pico in piedi accanto al letto, casco in testa, guarda in camera col pollice in su (serve anche per C8b).
+FINE ATTESA: Pico in piedi accanto al letto, casco in testa, guarda in camera col pollice in su.
 
 =========================== C2b — La stella e' il razzo -> C2b.mp4 ===========================
 INIZIO: C2b_INIZIO.png (ultimo fotogramma di C2a)      ULTIMO: (nessuna)
