@@ -13,12 +13,21 @@ prepara l'immagine d'inizio della clip successiva.
  3) C9.mp4   INIZIO: C1_INIZIO.png    ULTIMO: (nessuna)
  Poi Claude cuce: montaggio.mp4 (fino a 33,8 s) -> C8b -> C9 + frase finale.
 
-=========================== IMMAGINE C8b_INIZIO.png (da generare) ===========================
-Firefly -> Genera immagine, 16:9. Meglio un modello che accetta immagini di riferimento (es. Gemini/Nano Banana):
- riferimento 1 = C1_INIZIO.png (la camera), riferimento 2 = C7b_INIZIO.png (Pico con tuta e casco).
-Prompt:
-Keep the bedroom of the first reference image exactly identical: same camera angle and framing, same bed, headboard, pillow, lamp, nightstand, window with the snowy night, orange curtains, starry dark blue wallpaper, hanging planets, colors and cartoon illustration style. Change only this: the bed is empty and the blue blanket with golden stars is folded back; the top of the nightstand is empty, with no helmet on it. The little mint-blue cartoon character Pico from the references (pale mint-blue skin, big coral leaf-shaped gills, rosy cheeks, big dark eyes, white space suit) stands on the floor next to the bed, full body visible, facing the camera with a sleepy happy smile, wearing his round clear glass space helmet with a blue rim. He is pale mint-blue, never pink. No text.
-CONTROLLO prima di usarla: stessa camera di C1_INIZIO, comodino SENZA casco, Pico intero col casco in testa, non rosa.
+=========================== IMMAGINE C8b_INIZIO.png (da generare su LEONARDO.AI) ===========================
+Formato 16:9 · 4 immagini · Riferimenti:
+ - C1_INIZIO.png = la camera (deve restare identica)
+ - RIF_PICO.png  = Pico intero con tuta e casco (ritagliato dal montaggio)
+Modello: se c'e' Nano Banana (o FLUX Kontext) usa quello e allega le due immagini come riferimento (questi modelli non
+ hanno il negative prompt: aggiungi in fondo al prompt la riga "Avoid: ..." qui sotto).
+ Altrimenti Phoenix / Lucid Origin con Image Guidance: Content Reference = C1_INIZIO.png (forza ALTA),
+ Character Reference = RIF_PICO.png (forza MEDIA), Style Reference = C1_INIZIO.png (forza MEDIA).
+PROMPT:
+Children's book cartoon illustration, the exact same cozy bedroom as the reference image: same camera angle and framing, wooden bed with headboard, blue pillow, the blue blanket with big golden stars folded back so the bed is empty, wooden nightstand with a warm table lamp, window on the right with a snowy night outside, orange curtains, dark blue starry wallpaper, small hanging planets. The top of the nightstand is empty, no helmet on it. The little mint-blue cartoon character Pico from the character reference stands on the floor next to the bed, full body visible from head to feet, facing the camera with a sleepy happy smile: pale mint-blue skin, big coral leaf-shaped gills, rosy cheeks, big dark shiny eyes, white space suit, wearing his round clear glass space helmet with grey ear pieces and a blue rim. Warm night lighting, same colors and soft cartoon style as the reference.
+NEGATIVE PROMPT:
+pink skin, pink body, black and white, line art, sketch, helmet on the nightstand, two helmets, second character, rocket, person in the bed, different room, different camera angle, cropped body, cut off feet, extra limbs, extra fingers, deformed face, realistic, 3D render, photo, text, letters, watermark, logo, blurry
+NOMI E CARICAMENTO: le 4 versioni si chiamano C8b_INIZIO_v1.png, C8b_INIZIO_v2.png, C8b_INIZIO_v3.png, C8b_INIZIO_v4.png
+ (ordine come le mostra Leonardo, da sinistra a destra). Caricale su picoverse, ramo main, cartella principale
+ (come gli altri file). Claude sceglie la migliore e la rinomina C8b_INIZIO.png.
 
 REGOLE
 - L'AI anima solo DENTRO UNA SCENA (stesso sfondo dall'inizio alla fine). I cambi di scena sono tagli tra due clip,
