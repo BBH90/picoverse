@@ -82,6 +82,6 @@ NOTE DI MONTAGGIO (Claude)
  - C5b: il pinguino spariva al fotogramma 127 (5,3 s): ritagliato dal fotogramma 126 e fatto scivolare
    giu' fuori dall'inquadratura nei fotogrammi 127-135 (sopra i fotogrammi puliti, il 127 sostituito dal 128).
  - C7c: la camera passava dal muro accanto alla finestra (3,0-5,5 s). Sostituito con zoom dentro il vetro
-   illuminato del fotogramma 70 (14 fotogrammi) + passaggio dalla luce calda alla camera (10 fotogrammi), poi 5,5-8 s.
+   illuminato del fotogramma 70 (40 fotogrammi, rallentato) + passaggio dalla luce calda alla camera (20 fotogrammi), poi 6,3-8 s.
  - Firefly ACCETTA le immagini della camera con Pico sveglio (C7c_FINE); RIFIUTA quelle con Pico che dorme a letto.
  - Montaggio attuale: C3 0-4,5 s · C3b · montaggio 0-15,75 · C5b · montaggio 16,75-fine · C7c · C8b-R · frase.
