@@ -21,9 +21,9 @@ SCALETTA COMPLETA (in ordine di visione)
  4  C2b    la stella e' il razzo: arriva, Pico ci sale          Leonardo   ultimo fot. C2a -> (libera)         da fare
  5  C2c    PONTE: esce dalla finestra, diventa il mondo fuori   Leonardo   ultimo fot. C2b -> C3_INIZIO       da fare
  6  C3     decollo e anello di fumo (si usa 0-4,5 s)            Firefly    C3_INIZIO                          FATTA
- 7  C3b    PONTE: dal cielo di casa allo spazio sopra la Terra  Firefly    C3b_INIZIO -> C3b_FINE              da fare
+ 7  C3b    PONTE: dal cielo di casa allo spazio sopra la Terra  Firefly    C3b_INIZIO -> C3b_FINE              FATTA (intera)
  8  C4-C5  montaggio.mp4 0-15,75 s (Terra, Luna, Saturno)       -          -                                  FATTA
- 9  C5b    PONTE: il pinguino saluta e scivola via              Firefly    C5b_INIZIO -> C5b_FINE              da fare
+ 9  C5b    PONTE: il pinguino saluta e scivola via              Firefly    C5b_INIZIO -> C5b_FINE              FATTA (corretta)
 10  C6-C7b montaggio.mp4 16,75-33,9 s (amici, ritorno, porta)   -          -                                  FATTA
 11  C7c    PONTE: la camera entra dalla finestra illuminata     Firefly*   C7c_INIZIO -> C7c_FINE              da fare
 12  C8b-R  posa il casco, si corica (montata al contrario)      Leonardo   CAMERA_COLORI                      FATTA
@@ -78,3 +78,7 @@ NOTE DI MONTAGGIO (Claude)
  - C3: 0-4,5 s · C3b intera o accorciata · montaggio.mp4 0-15,75 s · C5b · montaggio.mp4 16,75-33,9 s · C7c · C8b-R · C9 + frase
  - C8b-R: al contrario, tolto 2,0-2,9 s (doppio casco) con dissolvenza 0,5 s.
  - Le clip ponte da 8 s si possono accelerare leggermente se rallentano il ritmo.
+ - C3b: usata intera (razzo grande tra 0,5 e 5 s accettato per gli effetti).
+ - C5b: il pinguino spariva al fotogramma 127 (5,3 s): ritagliato dal fotogramma 126 e fatto scivolare
+   giu' fuori dall'inquadratura nei fotogrammi 127-135 (sopra i fotogrammi puliti, il 127 sostituito dal 128).
+ - Montaggio attuale: C3 0-4,5 s · C3b · montaggio 0-15,75 · C5b · montaggio 16,75-fine · C8b-R · frase.
