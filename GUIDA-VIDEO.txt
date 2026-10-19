@@ -32,7 +32,7 @@ SCALETTA COMPLETA (in ordine di visione)
 
 FILE SU GITHUB (pronti per il montaggio)
  C0.mp4 · C3.mp4 (usare 0-4,5 s) · C3b.mp4 · montaggio.mp4 · C5b.mp4 (GIA' CORRETTA) · C7c.mp4 (GIA' CORRETTA)
- C1.mp4 (GIA' CORRETTA: la stella appesa alla finestra pulsa e lancia scintille) · C2a_INIZIO.png
+ C1.mp4 (GIA' CORRETTA: una stella del cielo FUORI dalla finestra, sotto la luna, pulsa e scintilla; la stella appesa resta ferma) · C2a_INIZIO.png
  C8b.mp4 (= C8b-R GIA' al contrario e corretta) · C9.mp4 · CAMERA_COLORI.png (inizio C1) · C3_INIZIO.png (fine C2c)
  Le immagini gia' usate (PAGINA29_BN, C3b/C5b/C7c_INIZIO/FINE) sono state tolte: si recuperano dalla cronologia git.
 
@@ -55,7 +55,7 @@ Static camera; the same pastel bedroom the whole time. The little mint-green car
 FINE ATTESA: Pico col casco vicino alla finestra, guarda fuori.
 
 C2b — La stella diventa il razzo · INIZIO ultimo fotogramma C2a (C2b_INIZIO.png, lo prepara Claude)
-Static camera; the same pastel bedroom the whole time. Outside the window, a bright golden star from the night sky flies closer and closer until it is just outside the glass, twinkling; then, with a sudden magical "poof" of golden sparkles and a little puff of glittering smoke, the star turns into a small white and red rocket with a little glowing flame, hovering just outside the window. The little mint-green cartoon character Pico, wearing his round glass space helmet, jumps with joy, opens the window, climbs out and sits astride on top of the small rocket, then turns and waves at the camera. The rocket stays small; he sits on top of it, never inside. Keep the exact same character design, colors and soft pastel cartoon style. Smooth continuous motion, no cuts, no text.
+Static camera; the same pastel bedroom the whole time. Outside the window, the bright twinkling golden star in the night sky next to the moon flies closer and closer until it is just outside the glass, twinkling; then, with a sudden magical "poof" of golden sparkles and a little puff of glittering smoke, the star turns into a small white and red rocket with a little glowing flame, hovering just outside the window. The little mint-green cartoon character Pico, wearing his round glass space helmet, jumps with joy, opens the window, climbs out and sits astride on top of the small rocket, then turns and waves at the camera. The rocket stays small; he sits on top of it, never inside. Keep the exact same character design, colors and soft pastel cartoon style. Smooth continuous motion, no cuts, no text.
 FINE ATTESA: Pico seduto sul razzo fuori dalla finestra aperta, saluta.
 (Claude in montaggio: rinforza il "puf" con un lampo e una pioggia di scintille.)
 
