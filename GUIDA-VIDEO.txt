@@ -25,7 +25,7 @@ SCALETTA COMPLETA (in ordine di visione)
  8  C4-C5  montaggio.mp4 0-15,75 s (Terra, Luna, Saturno)       -          -                                  FATTA
  9  C5b    PONTE: il pinguino saluta e scivola via              Firefly    C5b_INIZIO -> C5b_FINE              FATTA (corretta)
 10  C6-C7b montaggio.mp4 16,75-33,9 s (amici, ritorno, porta)   -          -                                  FATTA
-11  C7c    PONTE: la camera entra dalla finestra illuminata     Firefly*   C7c_INIZIO -> C7c_FINE              da fare
+11  C7c    PONTE: la camera entra dalla finestra illuminata     Firefly*   C7c_INIZIO -> C7c_FINE              FATTA (corretta)
 12  C8b-R  posa il casco, si corica (montata al contrario)      Leonardo   CAMERA_COLORI                      FATTA
 13  C9     dorme sereno + FRASE FINALE                          Leonardo   CAMERA_COLORI -> (libera)          da fare
  * C7c: prova prima su Firefly; se rifiuta l'ultima immagine, falla su Leonardo.
@@ -81,4 +81,7 @@ NOTE DI MONTAGGIO (Claude)
  - C3b: usata intera (razzo grande tra 0,5 e 5 s accettato per gli effetti).
  - C5b: il pinguino spariva al fotogramma 127 (5,3 s): ritagliato dal fotogramma 126 e fatto scivolare
    giu' fuori dall'inquadratura nei fotogrammi 127-135 (sopra i fotogrammi puliti, il 127 sostituito dal 128).
- - Montaggio attuale: C3 0-4,5 s · C3b · montaggio 0-15,75 · C5b · montaggio 16,75-fine · C8b-R · frase.
+ - C7c: la camera passava dal muro accanto alla finestra (3,0-5,5 s). Sostituito con zoom dentro il vetro
+   illuminato del fotogramma 70 (14 fotogrammi) + passaggio dalla luce calda alla camera (10 fotogrammi), poi 5,5-8 s.
+ - Firefly ACCETTA le immagini della camera con Pico sveglio (C7c_FINE); RIFIUTA quelle con Pico che dorme a letto.
+ - Montaggio attuale: C3 0-4,5 s · C3b · montaggio 0-15,75 · C5b · montaggio 16,75-fine · C7c · C8b-R · frase.
