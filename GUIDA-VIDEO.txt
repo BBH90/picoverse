@@ -10,7 +10,7 @@ prepara l'immagine d'inizio della clip successiva.
  Quindi tutte le scene in camera partono da CAMERA_COLORI.png.
  PAGINA29_BN.png = la pagina 29 ritagliata in 16:9 (preparata da Claude) = INIZIO della C0.
 
- PASSO 0 — FATTO: CAMERA_COLORI.png = pagina 29 colorata (linee identiche al disegno, colori chiari a tema spazio).
+ PASSO 0 — FATTO: CAMERA_COLORI.png = pagina 29 colorata, rifinita con Leonardo (image to image) per l'uso su Firefly.
 
  POI, partendo da CAMERA_COLORI.png:
  1) C8b-R.mp4 (Firefly)  INIZIO: CAMERA_COLORI.png   (generata al contrario, Claude la monta all'indietro)
