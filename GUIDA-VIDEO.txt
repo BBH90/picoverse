@@ -33,7 +33,8 @@ SCALETTA COMPLETA (in ordine di visione)
 FILE SU GITHUB (pronti per il montaggio)
  C0.mp4 · C3.mp4 (usare 0-4,5 s) · C3b.mp4 · montaggio.mp4 · C5b.mp4 (GIA' CORRETTA) · C7c.mp4 (GIA' CORRETTA)
  C1.mp4 (GIA' CORRETTA: una stella del cielo FUORI dalla finestra, sotto la luna, pulsa e scintilla; la stella appesa resta ferma) · C2a_INIZIO.png
- C8b.mp4 (= C8b-R GIA' al contrario e corretta) · C9.mp4 · CAMERA_COLORI.png (inizio C1) · C3_INIZIO.png (fine C2c)
+ C8b.mp4 (= C8b-R GIA' al contrario e corretta) · C9.mp4 · C3_INIZIO.png (ULTIMO fotogramma della C2c)
+ CAMERA_COLORI.png tolta (C0 e C1 fatte): si recupera dalla cronologia git.
  Le immagini gia' usate (PAGINA29_BN, C3b/C5b/C7c_INIZIO/FINE) sono state tolte: si recuperano dalla cronologia git.
 
 ORDINE DI LAVORO CONSIGLIATO
