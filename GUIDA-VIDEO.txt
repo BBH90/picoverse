@@ -5,18 +5,13 @@ Salva in Desktop/PICO-VIDEO/Montaggio col nome indicato. Mandami lo screenshot p
 Dopo ogni clip: caricala in picoverse/clip/ (es. clip/C0.mp4) -> la analizziamo insieme -> Claude la cuce e
 prepara l'immagine d'inizio della clip successiva.
 
-*** PROSSIMO PASSO ***
- NOVITA': la camera dei video deve essere LA STESSA della pagina 29 del libro, colorata nello stile del video.
- Quindi tutte le scene in camera partono da CAMERA_COLORI.png.
- PAGINA29_BN.png = la pagina 29 ritagliata in 16:9 (preparata da Claude) = INIZIO della C0.
-
- PASSO 0 — FATTO: CAMERA_COLORI.png = pagina 29 colorata, rifinita con Leonardo (image to image) per l'uso su Firefly.
-
- POI, partendo da CAMERA_COLORI.png:
- 1) C8b-R.mp4 (Firefly)  INIZIO: CAMERA_COLORI.png   (generata al contrario, Claude la monta all'indietro)
- 2) C9.mp4 (Firefly)     INIZIO: CAMERA_COLORI.png
- Claude cuce: montaggio.mp4 (fino alla porta chiusa, 33,8 s) -> C8b-R al contrario -> C9 + frase finale.
- Poi si riparte da C0 (INIZIO: PAGINA29_BN.png, ULTIMO: CAMERA_COLORI.png).
+*** STATO DEL MONTAGGIO ***
+ FATTE: C3 (Firefly, si usa 0-4,6 s: dopo il razzo cambia forma e Pico ci entra dentro)
+        C8b-R (Leonardo MiniMax H3, montata al contrario; tolto il tratto 2,0-2,9 s con due caschi, dissolvenza 0,5 s)
+ Ordine attuale: C3 (0-4,6 s) -> montaggio.mp4 (tutto) -> C8b-R corretta -> frase finale (provvisoria su immagine ferma)
+ Firefly RIFIUTA le immagini della camera (CAMERA_COLORI): le scene in camera si fanno su Leonardo (video, MiniMax H3).
+ DA FARE: C9 (Leonardo) | inizio: C0, C1, C2a, C2b (camera, Leonardo)
+ PAGINA29_BN.png = pagina 29 in 16:9 = INIZIO della C0 · CAMERA_COLORI.png = camera a colori (fine C0, inizio C1 e C9)
 
 REGOLE
 - L'AI anima solo DENTRO UNA SCENA (stesso sfondo dall'inizio alla fine). I cambi di scena sono tagli tra due clip,
