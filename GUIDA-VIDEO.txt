@@ -1,94 +1,80 @@
-FASE 2 — VIDEO su Adobe Firefly (una clip al giorno) — VERSIONE 2 (tutte le scene sono clip Firefly da 8 s; Claude cuce soltanto)
-==================================================================================================
-Impostazioni SEMPRE uguali: Veo 3.1 Lite · 720p · Widescreen 16:9 · 8 secondi · Audio OFF · Seed vuoto
-Salva in Desktop/PICO-VIDEO/Montaggio col nome indicato. Mandami lo screenshot prima di Genera.
-Dopo ogni clip: caricala in picoverse/clip/ (es. clip/C0.mp4) -> la analizziamo insieme -> Claude la cuce e
-prepara l'immagine d'inizio della clip successiva.
+PICO TI SALUTA — COPIONE DI REGIA (versione 3)
+================================================
+Regola d'oro: NESSUN TAGLIO NETTO e NESSUNA DISSOLVENZA tra un mondo e l'altro. Ogni passaggio e' una clip
+"ponte" generata con PRIMO e ULTIMO fotogramma, cosi' l'azione continua senza stacchi.
+Due mondi: CAMERA = pagina del libro colorata (stile pastello) · FUORI/SPAZIO = stile "dipinto" del montaggio.
+Si esce dal libro dalla finestra (C2c) e ci si rientra dalla finestra (C7c).
+Nei prompt MAI la parola 'axolotl' (lo fa diventare ROSA).
 
-*** STATO DEL MONTAGGIO ***
- FATTE: C3 (Firefly, si usa 0-4,6 s: dopo il razzo cambia forma e Pico ci entra dentro)
-        C8b-R (Leonardo MiniMax H3, montata al contrario; tolto il tratto 2,0-2,9 s con due caschi, dissolvenza 0,5 s)
- Ordine attuale: C3 (0-4,6 s) -> montaggio.mp4 (tutto) -> C8b-R corretta -> frase finale (provvisoria su immagine ferma)
- Firefly RIFIUTA le immagini della camera (CAMERA_COLORI): le scene in camera si fanno su Leonardo (video, MiniMax H3).
- DA FARE: C9 (Leonardo) | inizio: C0, C1, C2a, C2b (camera, Leonardo)
- PAGINA29_BN.png = pagina 29 in 16:9 = INIZIO della C0 · CAMERA_COLORI.png = camera a colori (fine C0, inizio C1 e C9)
+STRUMENTI
+ FIREFLY  (Veo 3.1 Lite · 720p · 16:9 · 8 s · audio OFF · seed vuoto): scene FUORI e SPAZIO.
+ LEONARDO (Video · MiniMax H3 · 16:9 · Turbo · HD se i crediti bastano, altrimenti 480p): scene in CAMERA
+          (Firefly rifiuta le immagini della camera). Per le clip con ULTIMO fotogramma: nel menu "Start" sotto
+          l'immagine cerca "End frame"; se MiniMax non lo offre, scegli un modello che lo offre (es. Kling).
+ Se Firefly rifiuta un'immagine: Claude prepara uno screenshot da un video gia' accettato e si riprova.
 
-REGOLE
-- L'AI anima solo DENTRO UNA SCENA (stesso sfondo dall'inizio alla fine). I cambi di scena sono tagli tra due clip,
-  pensati "sull'azione": il movimento con cui finisce una clip continua nella clip dopo.
-- Ogni clip finisce in una POSA PRECISA (vedi "FINE ATTESA"): e' quella che aggancia la clip successiva.
-- Pico ha gesti suoi, sempre gli stessi: le branchie che si muovono quando e' felice, la pacca affettuosa
-  (al razzo, al casco), il pollice in su, il grande sbadiglio. Ritornano a inizio e fine: il cerchio si chiude.
-- Nei prompt MAI la parola 'axolotl' (lo fa diventare ROSA): si scrive sempre 'the little mint-blue character'.
+SCALETTA COMPLETA (in ordine di visione)
+ #  Clip   Cosa succede                                        Strumento  Inizio -> Fine                    Stato
+ 1  C0     la pagina 29 B/N si colora                          Leonardo   PAGINA29_BN -> CAMERA_COLORI      da fare
+ 2  C1     Pico si sveglia, la stella fa l'occhiolino           Leonardo   CAMERA_COLORI -> (libera)          da fare
+ 3  C2a    prende il casco dal mobiletto e lo indossa           Leonardo   ultimo fot. C1 -> (libera)          da fare
+ 4  C2b    la stella e' il razzo: arriva, Pico ci sale          Leonardo   ultimo fot. C2a -> (libera)         da fare
+ 5  C2c    PONTE: esce dalla finestra, diventa il mondo fuori   Leonardo   ultimo fot. C2b -> C3_INIZIO       da fare
+ 6  C3     decollo e anello di fumo (si usa 0-4,5 s)            Firefly    C3_INIZIO                          FATTA
+ 7  C3b    PONTE: dal cielo di casa allo spazio sopra la Terra  Firefly    C3b_INIZIO -> C3b_FINE              da fare
+ 8  C4-C5  montaggio.mp4 0-15,75 s (Terra, Luna, Saturno)       -          -                                  FATTA
+ 9  C5b    PONTE: il pinguino saluta e scivola via              Firefly    C5b_INIZIO -> C5b_FINE              da fare
+10  C6-C7b montaggio.mp4 16,75-33,9 s (amici, ritorno, porta)   -          -                                  FATTA
+11  C7c    PONTE: la camera entra dalla finestra illuminata     Firefly*   C7c_INIZIO -> C7c_FINE              da fare
+12  C8b-R  posa il casco, si corica (montata al contrario)      Leonardo   CAMERA_COLORI                      FATTA
+13  C9     dorme sereno + FRASE FINALE                          Leonardo   CAMERA_COLORI -> (libera)          da fare
+ * C7c: prova prima su Firefly; se rifiuta l'ultima immagine, falla su Leonardo.
 
-STORIA IN BREVE
- C0 la pagina 29 del libro (B/N) prende colore -> C1 si sveglia, una stella gli fa l'occhiolino -> C2a prende il casco
- -> C2b la stella e' il razzo: arriva alla finestra, Pico ci sale e vola via -> C3 giro attorno al camino e su dritto
- tra le stelle -> [montaggio.mp4: C4 Terra, C5 Luna, C6bis Saturno e amici, C7 atterraggio] -> C7b entra in casa
- -> C8b posa il casco sul mobiletto, pacca anche a lui, si corica ->
- C9 dorme RESTANDO COLORATO, una stella cadente alla finestra + frase finale in sovrimpressione.
+ORDINE DI LAVORO CONSIGLIATO
+ Firefly: C3b -> C5b -> C7c      Leonardo: C9 -> C0 -> C1 -> C2a -> C2b -> C2c (una dopo l'altra: ognuna parte
+ dall'ultimo fotogramma della precedente, che Claude estrae e carica).
+ Nomi file: come in tabella (C3b.mp4, C5b.mp4 ...), caricati su picoverse, ramo main, cartella principale.
 
-FATTE E BUONE (in montaggio.mp4): C4, C5, C6bis + nuvole, C7, C7b fino alla porta chiusa (33,8 s).
-SI TIENE anche la C7b (entra in casa, fino a 33,8 s). SOSTITUITA: C3bis (partiva dal giardino).
-DA FARE, IN QUEST'ORDINE: C8b-R -> C9 (finale)  poi  C0 -> C1 -> C2a -> C2b -> C3 (inizio)
+PROMPT
+------
+C0 — La pagina prende vita · INIZIO PAGINA29_BN.png · ULTIMO CAMERA_COLORI.png
+A black and white coloring book page magically comes to life; static camera. First the little stars on the wall start to twinkle and turn golden, then soft colors flow out of them like watercolor paint filling the lines, as if painted by an invisible brush: the wall becomes a pastel gradient from sky blue to lilac and peach with soft clouds, the blanket turns deep blue with golden stars, the bed and the dresser turn light wood, the helmet on the dresser shines white and blue, the window fills with a starry night with a crescent moon and snowflakes. As the color reaches the little sleeping character, his cheeks blush first, then his leaf-shaped gills turn coral and his skin becomes pale mint green. He keeps sleeping peacefully with a gentle smile and does not move. Tiny golden sparkles float in the air. Smooth continuous magical transformation, no cuts, no text.
 
-IMMAGINI
- PAGINA29_BN.png   = pagina 29 del libro in B/N, 16:9 (gia' presente)
- CAMERA_COLORI.png = la stessa pagina colorata (gia' presente)
- C3_INIZIO.png  = Pico sul razzo accanto alla finestra di sinistra, preso dal montaggio (gia' presente)
- C2a_INIZIO / C2b_INIZIO = ultimi fotogrammi delle clip generate: li estrae Claude
+C1 — Sveglia · INIZIO CAMERA_COLORI.png
+Static camera; the pastel bedroom never changes. The little mint-green cartoon character Pico, with coral leaf-shaped gills and rosy cheeks, sleeps in his bed under the deep blue blanket with golden stars. His gills wiggle, he opens one eye, then the other, rubs his eyes with his tiny hands and gives a big yawn. He stretches his arms up high and sits up in bed. Outside the window on the right, one golden star blinks twice as if winking at him; Pico gasps with joy, his gills flutter happily and he claps his little hands, looking at the window with a big smile. Only Pico and the star move; the helmet stays on the dresser. Keep the exact same character design, colors and soft pastel cartoon style. Smooth continuous motion, no cuts, no morphing, no text.
+FINE ATTESA: seduto nel letto, guarda la finestra.
 
-=========================== C0 — La pagina del libro prende vita -> C0.mp4 ===========================
-INIZIO: PAGINA29_BN.png      ULTIMO: CAMERA_COLORI.png
-A black and white coloring book page magically comes to life; static camera. First the little stars on the wall start to twinkle and turn golden, then colors flow out of them like watercolor paint filling the lines, sweeping across the drawing as if painted by an invisible brush: the wall becomes a starry night blue, the blanket turns deep blue with golden stars, the helmet on the dresser starts to shine, the window fills with a snowy night sky. As the color reaches the little sleeping character, his cheeks blush rosy first, then his gills turn coral and ripple softly, and his skin becomes pale mint-blue. The little mint-blue cartoon character Pico keeps sleeping peacefully with closed eyes and a gentle smile the whole time; he never turns pink. Tiny golden sparkles float in the air. Smooth continuous magical transformation, no cuts, no text.
-FINE ATTESA: esattamente CAMERA_COLORI (Pico che dorme a colori).
+C2a — Il casco · INIZIO ultimo fotogramma di C1 (C2a_INIZIO.png, lo prepara Claude)
+Static camera; the same pastel bedroom the whole time. The little mint-green cartoon character Pico, with coral leaf-shaped gills and rosy cheeks, pushes the blanket aside and hops out of bed with a little bounce. He goes to the light wooden dresser by the window, picks up his round white space helmet with the clear glass visor, breathes on the glass and polishes it with his arm, then puts it on his head: it wobbles a moment and settles. He taps the glass twice, turns to the camera and gives a proud thumbs up. There is only one helmet. Keep the exact same character design, colors and soft pastel cartoon style. Smooth continuous motion, no cuts, no morphing, no text.
+FINE ATTESA: in piedi vicino al mobiletto, casco in testa, pollice in su.
 
-=========================== C1 — Sveglia, la stella fa l'occhiolino -> C1.mp4 ===========================
-INIZIO: CAMERA_COLORI.png (= fine di C0)      ULTIMO: (nessuna)
-Static camera; the bedroom never changes. The little mint-blue cartoon character Pico (pale mint-blue skin, coral gills, rosy cheeks, white space suit, never pink) is sleeping in his bed under the blue starry blanket. His gills wiggle, he opens one eye, then the other, rubs his eyes with his tiny hands and gives a huge yawn. He stretches both arms up high and sits up in bed. Outside the window on the right, one bright star blinks twice as if winking at him; Pico gasps with joy, his gills flutter happily and he claps his little hands, staring at the window with a big smile. Only Pico and the star move; the room, the bed, the round glass helmet on the dresser and the window stay exactly the same. Keep the exact same character design, colors and cartoon style. Smooth continuous motion, no cuts, no morphing, no text.
-FINE ATTESA: Pico seduto nel letto, guarda la finestra sorridendo.
+C2b — La stella e' il razzo · INIZIO ultimo fotogramma di C2a (C2b_INIZIO.png, lo prepara Claude)
+Static camera; the same pastel bedroom the whole time. Outside the window on the right, the winking golden star grows brighter and swoops down: it is a small white and red rocket with a little glowing flame, which does one playful loop and stops, hovering just outside the window. The little mint-green cartoon character Pico, wearing his round glass space helmet, gasps, runs to the window and pushes it open; the curtains flutter and a few snowflakes drift in. He climbs out and sits astride on top of the small rocket, just outside the open window, and waves at the camera. The rocket stays small with the same shape; he sits on top of it, never inside. Keep the exact same character design, colors and soft pastel cartoon style. Smooth continuous motion, no cuts, no text.
+FINE ATTESA: Pico seduto sul razzo fuori dalla finestra aperta, saluta.
 
-=========================== C2a — Il casco -> C2a.mp4 ===========================
-INIZIO: C2a_INIZIO.png (ultimo fotogramma di C1)      ULTIMO: (nessuna)
-The same cozy bedroom the whole time; static camera. The little mint-blue cartoon character Pico (pale mint-blue skin, coral gills, rosy cheeks, white space suit, never pink) kicks off the blanket and hops out of bed with a little bounce. He tiptoes to the little dresser by the window, picks up his round glass space helmet with the blue rim, breathes on the glass and polishes it with his arm, then plops it on his head: it wobbles for a moment and settles. He taps the glass twice, turns to the camera, standing next to the bed in full view, and gives a proud thumbs up. The helmet stays clear glass with a blue rim; the room, the bed and the window stay exactly the same. Keep the exact same character design, colors and cartoon style. Smooth continuous motion, no cuts, no morphing, no text.
-FINE ATTESA: Pico in piedi accanto al letto, casco in testa, guarda in camera col pollice in su.
+C2c — PONTE: fuori dal libro · INIZIO ultimo fotogramma di C2b (C2c_INIZIO.png, lo prepara Claude) · ULTIMO C3_INIZIO.png
+The camera slowly pulls back out through the open window into the snowy winter night, and the pastel picture-book bedroom gently turns into the painted outside world: we now see the cozy brick house covered in snow with its glowing windows, and Pico sitting on top of his small white and red rocket, hovering next to the window with its little flame glowing, now in his white space suit and round glass helmet, waving. Smooth continuous camera move, the rocket never changes shape and he never goes inside it, no cuts, no text.
 
-=========================== C2b — La stella e' il razzo -> C2b.mp4 ===========================
-INIZIO: C2b_INIZIO.png (ultimo fotogramma di C2a)      ULTIMO: (nessuna)
-The same cozy bedroom the whole time; static camera. Outside the window on the right, the winking star grows brighter and swoops down: it is his small white and red rocket, which does one playful little loop and stops, hovering just outside the window with its little flame puffing. The little mint-blue cartoon character Pico (pale mint-blue skin, coral gills, white space suit, round glass helmet on his head, never pink) gasps, runs to the window and pushes it open; the curtains flutter and a few snowflakes drift in. He hops out and sits astride on top of the small rocket, waves at the camera, and the rocket zooms up and away out of view, leaving a trail of golden sparkles. The rocket keeps exactly the same small shape and size and never turns into a different rocket; he sits on top of it, never inside. Keep the exact same character design, colors and cartoon style. Smooth continuous motion, no cuts, no fading, no text.
-FINE ATTESA: finestra aperta e vuota, tende che si muovono, scia di scintille. (Taglio -> C3: lo ritroviamo fuori.)
+C3 — FATTA (Firefly). Si usa 0-4,5 s (dopo il razzo cambia forma).
 
-=========================== C3 — Giro del camino e via tra le stelle -> C3.mp4 ===========================
-INIZIO: C3_INIZIO.png      ULTIMO: (nessuna)
-The same snowy winter night garden in front of the cozy house the whole time; the camera slowly tilts up, following him. The little mint-blue cartoon character Pico (pale mint-blue skin, coral gills, white space suit, round glass helmet, never pink) sits astride his small white and red rocket, hovering next to the house with its little flame glowing. He waves goodbye to the house, then the SAME small rocket swirls once around the chimney, curling the chimney smoke into a spiral, and shoots straight up into the starry night sky, leaving a long trail of golden sparkles, until it flies out of the top of the frame. He is clearly visible sitting on top of the small rocket in every moment: the rocket never changes shape, never turns into a bigger or different rocket, and he never goes inside it. Keep the exact same character design, colors and cartoon style. Smooth continuous motion, no cuts, no fading, no text.
-FINE ATTESA: cielo stellato con la scia di scintille, il razzo appena uscito in alto. (Taglio -> C4: il razzo sale sopra la Terra.)
+C3b — PONTE: verso lo spazio · INIZIO C3b_INIZIO.png · ULTIMO C3b_FINE.png  (Firefly)
+The camera follows the little mint-blue cartoon character Pico (pale mint-blue skin, coral gills, white space suit with red details, round glass helmet, never pink), sitting astride on top of his small white and red rocket, as he bursts out of the ring of chimney smoke and flies straight up into the night sky leaving golden sparkles. The snowy house and the roof shrink far below and disappear, he rises through a layer of soft white clouds, the sky turns into deep space full of stars and small colorful planets, and the round blue Earth with white clouds appears below him. At the end he waves happily at the camera above the Earth. He always sits on top of the same small rocket, never inside it; the rocket never changes shape or size. Keep the exact same character design, colors and cartoon style. Smooth continuous motion, no cuts, no fading, no text.
 
-=========================== C8b-R — La nanna (generata al contrario) -> C8b-R.mp4 ===========================
-INIZIO: CAMERA_COLORI.png      ULTIMO: (nessuna)
-(Claude la monta all'indietro: Pico posa il casco sul comodino, si corica, si addormenta. Movimenti lenti e
- nessun elemento che si muove da solo, cosi' al contrario non si nota.)
-Static camera; the bedroom never changes and nothing moves except the character. The little mint-blue cartoon character Pico (pale mint-blue skin, coral gills, rosy cheeks, white space suit, never pink) is asleep in his bed under the blue starry blanket. He slowly opens his eyes, pushes the blanket aside and climbs out of bed towards the little dresser by the window on the right. He picks up his round glass space helmet from the dresser with both hands and puts it on his head, then stands next to the bed facing the camera with a gentle smile and stays still for the last second. Slow, calm, simple movements. The light stays steady, no falling snow outside, no flickering, no camera movement. Keep the exact same character design, colors and cartoon style. Smooth continuous motion, no cuts, no morphing, no text.
-FINE (dopo il montaggio all'indietro): esattamente CAMERA_COLORI.
+C5b — PONTE: ciao pinguino · INIZIO C5b_INIZIO.png · ULTIMO C5b_FINE.png  (Firefly)
+The same icy planet scene with the two orange ringed planets in the starry sky the whole time; the camera slowly glides to the right. The little mint-blue cartoon character Pico (pale mint-blue skin, coral gills, white space suit, round glass helmet, never pink) flies slowly on his small white and red rocket and waves. The cute penguin standing on the snow waves goodbye with its flipper, then happily belly-slides down the snowy slope and out of the frame to the right: it never fades and never disappears, it clearly slides away. Pico waves back with a big smile. At the end a little green alien in a flying saucer peeks in from the top right corner. Keep the exact same character design, colors and cartoon style. Smooth continuous motion, no cuts, no fading, no text.
 
-=========================== C9 — Sogni d'oro (sotto la frase finale) -> C9.mp4 ===========================
-INIZIO: CAMERA_COLORI.png (= fine di C8b)      ULTIMO: (nessuna)
-Very slow gentle push-in towards the sleeping character; the bedroom never changes. The little mint-blue cartoon character Pico (pale mint-blue skin, coral gills, rosy cheeks, never pink) sleeps peacefully in his bed with a sweet smile; he breathes slowly, the blue starry blanket gently rises and falls and his gills sway softly as he dreams. Outside the window on the right a shooting star crosses the night sky, and a tiny twinkle of its light glints on the round glass helmet on the dresser. He never wakes up and never moves from the bed; he stays in full bright colors. Keep the exact same character design, colors and cartoon style. Smooth continuous motion, no cuts, no morphing, no text.
-FINE ATTESA: Pico che dorme, inquadratura un po' piu' vicina. Sopra Claude mette la frase finale.
+C7c — PONTE: dentro il libro · INIZIO C7c_INIZIO.png · ULTIMO C7c_FINE.png  (Firefly, se rifiuta -> Leonardo)
+The camera slowly flies across the snowy garden towards the warm glowing window on the left of the cozy house and passes through it into the bedroom; as it goes through the window the scene softly turns into a pastel children's picture-book illustration. Inside, the little mint-green cartoon character Pico, wearing his round glass space helmet, stands next to his bed and smiles at the camera. Smooth continuous camera move, no cuts, no text.
 
-=========================== FRASE FINALE (sovrimpressione su C9) ===========================
-   "I colori che gli hai regalato
-    restano per sempre.
-         Buon Natale!"
-Alternative:
- - "Pico e' tornato a casa... e sogna gia' il suo prossimo viaggio!" (la stessa della pagina 29 del libro)
- - "Ogni volta che colori, Pico riparte. Buon Natale!"
- - "Grazie per aver colorato con lui! Buonanotte, Pico."
+C8b-R — FATTA (Leonardo, montata al contrario, tolto il tratto con due caschi).
 
-MONTAGGIO — Claude cuce soltanto le clip, una dopo l'altra
- C0 -> C1 -> C2a -> C2b : stesso fotogramma (ogni clip parte dall'ultima immagine della precedente)
- C2b -> C3        : taglio sull'azione (il razzo sfreccia via dalla finestra / fuori, Pico accanto alla finestra)
- C3 -> C4         : taglio sull'azione (il razzo esce in alto dal cielo di casa / sale sopra la Terra)
- C4 ... C7b       : montaggio.mp4 com'e' adesso, fino alla porta chiusa (33,8 s)
- C7b -> C8b-R     : taglio sull'azione (la porta si chiude / Pico gia' in camera col casco)
- C8b-R -> C9      : stesso fotogramma (CAMERA_COLORI) + frase finale in sovrimpressione
- Claude taglia solo i pezzi difettosi o lenti di ogni clip; nessuna scena aggiunta in montaggio.
+C9 — Sogni d'oro · INIZIO CAMERA_COLORI.png  (Leonardo)
+Very slow gentle push-in towards the sleeping character; the pastel bedroom never changes. The little mint-green cartoon character Pico, with coral leaf-shaped gills and rosy cheeks, sleeps peacefully in his bed with a sweet smile; he breathes slowly, the blue starry blanket gently rises and falls and his gills sway softly as he dreams. Outside the window a shooting star crosses the night sky and a tiny twinkle of its light glints on the round helmet on the dresser. He never wakes up and never moves from the bed. Keep the exact same character design, colors and soft pastel cartoon style. Smooth continuous motion, no cuts, no morphing, no text.
+FRASE FINALE (Claude, in sovrimpressione su C9): "I colori che gli hai regalato / restano per sempre. / Buon Natale!"
+
+NEGATIVE PROMPT (solo Leonardo): camera shake, morphing, flickering, pink skin, extra characters, two helmets, distorted face, extra limbs, text, watermark, blurry
+
+NOTE DI MONTAGGIO (Claude)
+ - C3: 0-4,5 s · C3b intera o accorciata · montaggio.mp4 0-15,75 s · C5b · montaggio.mp4 16,75-33,9 s · C7c · C8b-R · C9 + frase
+ - C8b-R: al contrario, tolto 2,0-2,9 s (doppio casco) con dissolvenza 0,5 s.
+ - Le clip ponte da 8 s si possono accelerare leggermente se rallentano il ritmo.
