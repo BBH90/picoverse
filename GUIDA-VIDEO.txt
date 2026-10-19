@@ -15,7 +15,7 @@ STRUMENTI
 
 SCALETTA COMPLETA (in ordine di visione)
  #  Clip   Cosa succede                                        Strumento  Inizio -> Fine                    Stato
- 1  C0     la pagina 29 B/N si colora                          Leonardo   PAGINA29_BN -> CAMERA_COLORI      da fare
+ 1  C0     la pagina 29 B/N si colora                          Leonardo   PAGINA29_BN -> CAMERA_COLORI      FATTA
  2  C1     Pico si sveglia, la stella fa l'occhiolino           Leonardo   CAMERA_COLORI -> (libera)          da fare
  3  C2a    prende il casco dal mobiletto e lo indossa           Leonardo   ultimo fot. C1 -> (libera)          da fare
  4  C2b    la stella e' il razzo: arriva, Pico ci sale          Leonardo   ultimo fot. C2a -> (libera)         da fare
@@ -29,6 +29,11 @@ SCALETTA COMPLETA (in ordine di visione)
 12  C8b-R  posa il casco, si corica (montata al contrario)      Leonardo   CAMERA_COLORI                      FATTA
 13  C9     dorme sereno + FRASE FINALE                          Leonardo   CAMERA_COLORI -> (libera)          FATTA
  * C7c: prova prima su Firefly; se rifiuta l'ultima immagine, falla su Leonardo.
+
+FILE SU GITHUB (pronti per il montaggio)
+ C0.mp4 · C3.mp4 (usare 0-4,5 s) · C3b.mp4 · montaggio.mp4 · C5b.mp4 (GIA' CORRETTA) · C7c.mp4 (GIA' CORRETTA)
+ C8b.mp4 (= C8b-R GIA' al contrario e corretta) · C9.mp4 · CAMERA_COLORI.png (inizio C1) · C3_INIZIO.png (fine C2c)
+ Le immagini gia' usate (PAGINA29_BN, C3b/C5b/C7c_INIZIO/FINE) sono state tolte: si recuperano dalla cronologia git.
 
 ORDINE DI LAVORO CONSIGLIATO
  Firefly: C3b -> C5b -> C7c      Leonardo: C9 -> C0 -> C1 -> C2a -> C2b -> C2c (una dopo l'altra: ognuna parte
