@@ -27,7 +27,7 @@ SCALETTA COMPLETA (in ordine di visione)
 10  C6-C7b montaggio.mp4 16,75-33,9 s (amici, ritorno, porta)   -          -                                  FATTA
 11  C7c    PONTE: la camera entra dalla finestra illuminata     Firefly*   C7c_INIZIO -> C7c_FINE              FATTA (corretta)
 12  C8b-R  posa il casco, si corica (montata al contrario)      Leonardo   CAMERA_COLORI                      FATTA
-13  C9     dorme sereno + FRASE FINALE                          Leonardo   CAMERA_COLORI -> (libera)          da fare
+13  C9     dorme sereno + FRASE FINALE                          Leonardo   CAMERA_COLORI -> (libera)          FATTA
  * C7c: prova prima su Firefly; se rifiuta l'ultima immagine, falla su Leonardo.
 
 ORDINE DI LAVORO CONSIGLIATO
@@ -84,4 +84,4 @@ NOTE DI MONTAGGIO (Claude)
  - C7c: la camera passava dal muro accanto alla finestra (3,0-5,5 s). Sostituito con zoom dentro il vetro
    illuminato del fotogramma 70 (40 fotogrammi, rallentato) + passaggio dalla luce calda alla camera (20 fotogrammi), poi 6,3-8 s.
  - Firefly ACCETTA le immagini della camera con Pico sveglio (C7c_FINE); RIFIUTA quelle con Pico che dorme a letto.
- - Montaggio attuale: C3 0-4,5 s · C3b · montaggio 0-15,75 · C5b · montaggio 16,75-fine · C7c · C8b-R · frase.
+ - Montaggio attuale: C3 0-4,5 s · C3b · montaggio 0-15,75 · C5b · montaggio 16,75-fine · C7c · C8b-R · C9 con frase (testo da 1 s, fermo finale 2 s, dissolvenza al nero).
