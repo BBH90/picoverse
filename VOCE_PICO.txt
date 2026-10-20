@@ -8,8 +8,9 @@ Per ogni battuta dille 2-3 volte nello stesso file: Claude sceglie la migliore.
 Telefono a 20 cm, stanza silenziosa. La voce un po' rauca va benissimo: la pulisco e la scaldo io.
 
 #    Scena (cosa si vede)                            Battuta di Pico                                         Max
-P01  la pagina in B/N si colora                       "Ciao! Sono Pico... e tu mi hai appena colorato!"       5 s
-P02  si sveglia, vede la stella alla finestra         "Che sonno... Ehi! Quella stella mi sta chiamando!"     5 s
+---  la pagina in B/N si colora                       (nessuna battuta: titolo "Il Viaggio Spaziale di Pico")
+P01  si gira verso di noi sorridendo (C1)            "Ciao, sono Pico! Come va?"   FATTA (voce.opus), a 0:11.5
+P02  (tolta: la stella la commenta in P04)
 P03  prende il casco, lo lucida, lo indossa           "Una lucidata al casco... e sono pronto!"               4 s
 P04  la stella si avvicina e diventa razzo            "Guarda! La stella... puf! E' diventata un razzo!"      5 s
 P05  esce sul razzo, esplode la magia                 "Si parte! Tieniti forte!"                              3 s
@@ -27,3 +28,12 @@ MUSICA SCELTA (analisi di Claude)
  2.mp3  arco: intro, crescendo, pausa, crescendo (148 s) -> avventura: parte sul lampo magico, la pausa cade sul ritorno a casa
  1.mp3  energica e uguale dall'inizio alla fine (136 bpm) -> non usata (toglierebbe la magia)
  Sotto la voce la musica si abbassa da sola (ducking); effetti: tintinnii sul "puf", sul lampo magico e sulla cometa.
+
+MONTAGGIO v5 (PICO_FINALE_v5.mp4, 1:56)
+ Tagli: C2a x1.25, coda di C2b x1.6, camminata verso la porta x1.3.
+ Musica: 3.mp3 (0:00-0:28) -> 2.mp3 da 18,7 s, entra sul lampo magico a 0:27,5 -> 3.mp3 dall'inizio sulla finestra (1:22) fino alla fine.
+ Voce: P01 a 0:11.5 (pulita, scaldata), musica abbassata sotto la voce.
+ Effetti: tintinnii sulla stella (0:10.3, 0:10.8), "puf" (0:22.4), lampo magico (0:26.3-0:27.5), cometa (1:48.6).
+ Scritte: titolo 0:00-0:06; sottotitolo della battuta; finale "I colori che gli hai regalato / restano per sempre." (1:48) e "Buon Natale!" (1:50.5).
+ Prossime battute: P03 0:13-0:19 · P04 0:19.5-0:25 · P05 0:27.5-0:30 · P06 0:33.5-0:44 · P07 0:44-0:55 · P08 0:55-1:11 ·
+                   P09 1:11-1:18 · P10 1:32-1:37 · P11 1:38-1:44 · P12 1:45-1:52
