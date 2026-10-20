@@ -26,10 +26,13 @@ COME REGISTRARE LA VOCE (scegline una)
  B) Voce sintetica: ElevenLabs (piano gratuito), voce italiana calda e lenta, stabilita' media.
     Una frase per volta, file VOCE_01.mp3 ... VOCE_11.mp3.
 
-MUSICA
- Pixabay Music (licenza gratuita, uso anche commerciale, senza obbligo di citazione):
- cerca "christmas lullaby" o "music box" e scegli un brano dolce, senza voce, di almeno 2 minuti.
- Scaricalo in mp3 e mandalo (MUSICA.mp3). Claude la abbassa sotto la voce e la sfuma alla fine.
+MUSICA (non ninna nanna: avventura magica natalizia, con un arco)
+ Pixabay Music (licenza gratuita, uso anche commerciale, senza obbligo di citazione).
+ Cerca: "magical christmas", "whimsical adventure", "christmas adventure", "fairy tale orchestral", "kids adventure".
+ Cosa ascoltare: campanelli/celesta + archi o pizzicato, ritmo vivace ma non frenetico, senza voce, almeno 2 minuti.
+ Ideale un brano che parte leggero, cresce (decollo e spazio) e si calma alla fine.
+ Se non lo trovi in un unico brano, mandane due: MUSICA_AVVENTURA.mp3 (0:00-1:30) e MUSICA_FINALE.mp3
+ (dolce, per gli ultimi 20 s, qui va bene anche un "music box"): Claude li unisce con una dissolvenza.
 
 COSA FA CLAUDE
  - taglia il video sul ritmo della voce (circa 1:40), senza cambiare l'ordine delle scene
