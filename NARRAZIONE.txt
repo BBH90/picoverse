@@ -43,7 +43,9 @@ COSA FA CLAUDE
  - mix: voce in primo piano, musica bassa sotto, sfumata alla fine
 
 CHIUSURA NATALIZIA — C10 (Firefly, Veo 3.1 Lite, 720p, 16:9, 8 s, audio OFF)
- INIZIO: C10_INIZIO.png (casa innevata, porta chiusa, razzo parcheggiato, albero a destra)   ULTIMO: (nessuna)
- Dopo la frase su Pico che dorme, la camera "esce" e chiude sulla casa con l'albero: "Buon Natale!" in sovrimpressione.
+ Specchio dell'entrata: come la camera era ENTRATA dalla finestra illuminata (C7c), ora ne ESCE.
+ Raccordo (Claude): Pico che dorme -> la luce calda della finestra riempie lo schermo -> la camera si allontana
+ dal vetro fino all'inquadratura della finestra vista da fuori = C10_INIZIO.png. Nessun taglio.
+ INIZIO: C10_INIZIO.png (la finestra illuminata della cameretta vista da fuori, primo piano)   ULTIMO: (nessuna)
 Prompt:
-Slow gentle camera pull-back and slight rise, the same snowy winter night garden and cozy brick house the whole time. Snow falls softly. The colorful lights on the Christmas tree on the right start to twinkle and its golden star glows brighter; warm fairy lights along the roof edge light up one by one. Then the warm light in the small window on the left softly switches off, as if someone has just fallen asleep, while the rest of the house keeps glowing. The small white and red rocket stays parked in the snow and never moves. Calm, magical, cozy Christmas night. Keep the exact same colors and cartoon style. Smooth continuous motion, no cuts, no characters, no text.
+The camera slowly and smoothly pulls back from the warm glowing window with green shutters on the snowy brick wall, rising gently, until the whole cozy snow-covered brick house is revealed in the snowy night, with the Christmas tree on the right and the small white and red rocket parked in the snow on the left. Snow falls softly the whole time. The colorful lights on the Christmas tree start to twinkle and its golden star glows brighter. At the very end, the warm light in that window softly switches off, as if someone has just fallen asleep, while the rest of the house keeps glowing. Calm, magical, cozy Christmas night. Keep the exact same colors and cartoon style. Smooth continuous motion, no cuts, no characters, no text.
