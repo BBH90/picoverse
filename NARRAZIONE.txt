@@ -17,7 +17,8 @@ TESTO DA REGISTRARE (una frase alla volta, con 2 secondi di pausa tra una e l'al
 8   pinguino e amici (1:03-1:15)            ...il pinguino, e tutti gli amici incontrati nel viaggio.
 9   ritorno a casa (1:16-1:28)              Ma il posto piu' bello, alla fine, e' sempre casa.
 10  finestra, casco, letto (1:29-1:42)      Il casco torna al suo posto, e Pico nel suo lettino. Buonanotte, Pico.
-11  frase finale (1:43-fine)                I colori che gli hai regalato restano per sempre. Buon Natale!
+11  frase finale su Pico che dorme          I colori che gli hai regalato restano per sempre.
+12  C10 casa da fuori, albero (ultimi 6 s)  Buon Natale!
 
 COME REGISTRARE LA VOCE (scegline una)
  A) Voce vera (consigliata): stanza silenziosa, telefono a 20-30 cm, app Registratore/Memo vocali.
@@ -40,3 +41,9 @@ COSA FA CLAUDE
  - sottotitoli con le frasi della voce (font arrotondato, in basso, con ombra)
  - titolo iniziale e frase finale come gia' impostata
  - mix: voce in primo piano, musica bassa sotto, sfumata alla fine
+
+CHIUSURA NATALIZIA — C10 (Firefly, Veo 3.1 Lite, 720p, 16:9, 8 s, audio OFF)
+ INIZIO: C10_INIZIO.png (casa innevata, porta chiusa, razzo parcheggiato, albero a destra)   ULTIMO: (nessuna)
+ Dopo la frase su Pico che dorme, la camera "esce" e chiude sulla casa con l'albero: "Buon Natale!" in sovrimpressione.
+Prompt:
+Slow gentle camera pull-back and slight rise, the same snowy winter night garden and cozy brick house the whole time. Snow falls softly. The colorful lights on the Christmas tree on the right start to twinkle and its golden star glows brighter; warm fairy lights along the roof edge light up one by one. Then the warm light in the small window on the left softly switches off, as if someone has just fallen asleep, while the rest of the house keeps glowing. The small white and red rocket stays parked in the snow and never moves. Calm, magical, cozy Christmas night. Keep the exact same colors and cartoon style. Smooth continuous motion, no cuts, no characters, no text.
