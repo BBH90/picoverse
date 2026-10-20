@@ -30,7 +30,9 @@ SCALETTA COMPLETA (in ordine di visione)
 13  C9     dorme sereno + FRASE FINALE                          Leonardo   CAMERA_COLORI -> (libera)          FATTA
  * C7c: prova prima su Firefly; se rifiuta l'ultima immagine, falla su Leonardo.
 
-VIDEO COMPLETO: PICO_COMPLETO_v2.mp4 (112 s, 1280x720, senza audio)
+VIDEO COMPLETO: PICO_COMPLETO_v3.mp4 (112 s, 1280x720, senza audio)
+ Correzioni v3: coperta con contorno vero (bordo superiore e laterale), segue la camera senza lasciare
+ vedere sotto l'immagine originale; bordo inferiore esteso fino al fondo dell'inquadratura.
  Correzioni v2: coperta ridisegnata in primo piano in C2a/C2b/C2c (letto intero, Pico in piedi sul letto);
  C3b senza la trasformazione razzo->Pico (passaggio bianco tra le nuvole 4,3->5,6 s);
  C5b -> montaggio con dissolvenza 0,33 s (ultimi 8 fotogrammi di C5b tolti);
