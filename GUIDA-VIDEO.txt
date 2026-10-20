@@ -18,7 +18,7 @@ SCALETTA COMPLETA (in ordine di visione)
  1  C0     la pagina 29 B/N si colora                          Leonardo   PAGINA29_BN -> CAMERA_COLORI      FATTA
  2  C1     Pico si sveglia, la stella fa l'occhiolino           Leonardo   CAMERA_COLORI -> (libera)          FATTA (stella viva aggiunta)
  3  C2a    prende il casco dal mobiletto e lo indossa           Leonardo   ultimo fot. C1 -> (libera)          FATTA
- 4  C2b    la stella e' il razzo: arriva, Pico ci sale          Leonardo   ultimo fot. C2a -> (libera)         FATTA (si usa 0-3,2 s)
+ 4  C2b    la stella e' il razzo: arriva, Pico ci sale          Leonardo   ultimo fot. C2a -> (libera)         da RIFARE con ultimo fotogramma
  5  C2c    PONTE: esce dalla finestra, diventa il mondo fuori   Leonardo   ultimo fot. C2b -> C3_INIZIO       da fare
  6  C3     decollo e anello di fumo (si usa 0-4,5 s)            Firefly    C3_INIZIO                          FATTA
  7  C3b    PONTE: dal cielo di casa allo spazio sopra la Terra  Firefly    C3b_INIZIO -> C3b_FINE              FATTA (intera)
@@ -32,7 +32,7 @@ SCALETTA COMPLETA (in ordine di visione)
 
 FILE SU GITHUB (pronti per il montaggio)
  C0.mp4 · C3.mp4 (usare 0-4,5 s) · C3b.mp4 · montaggio.mp4 · C5b.mp4 (GIA' CORRETTA) · C7c.mp4 (GIA' CORRETTA)
- C1.mp4 (GIA' CORRETTA: una stella del cielo FUORI dalla finestra, sotto la luna, pulsa e scintilla; la stella appesa resta ferma) · C2a.mp4 · C2b.mp4 (usare 0-3,2 s) · C2c_INIZIO.png
+ C1.mp4 (GIA' CORRETTA: una stella del cielo FUORI dalla finestra, sotto la luna, pulsa e scintilla; la stella appesa resta ferma) · C2a.mp4 · C2b_INIZIO.png · C2b_FINE.png
  C8b.mp4 (= C8b-R GIA' al contrario e corretta) · C9.mp4 · C3_INIZIO.png (ULTIMO fotogramma della C2c)
  CAMERA_COLORI.png tolta (C0 e C1 fatte): si recupera dalla cronologia git.
  Le immagini gia' usate (PAGINA29_BN, C3b/C5b/C7c_INIZIO/FINE) sono state tolte: si recuperano dalla cronologia git.
@@ -55,14 +55,12 @@ C2a — Il casco · INIZIO C2a_INIZIO.png (ultimo fotogramma C1) · Firefly (se 
 Static camera; the same pastel bedroom the whole time. The little mint-green cartoon character Pico, with coral leaf-shaped gills and rosy cheeks, pushes the blanket aside and hops out of bed with a little bounce. He goes to the light wooden dresser by the window, picks up his round white space helmet with the clear glass visor, breathes on the glass and polishes it with his arm, then puts it on his head: it wobbles a moment and settles. He taps the glass twice, gives a proud thumbs up to the camera, then turns to the window and looks out at the night sky, curious. There is only one helmet. Keep the exact same character design, colors and soft pastel cartoon style. Smooth continuous motion, no cuts, no morphing, no text.
 FINE ATTESA: Pico col casco vicino alla finestra, guarda fuori.
 
-C2b — La stella diventa il razzo · INIZIO ultimo fotogramma C2a (C2b_INIZIO.png, lo prepara Claude)
-Static camera; the same pastel bedroom the whole time. The little mint-green cartoon character Pico, wearing his round glass space helmet, turns towards the window on the right and looks out. Outside the window, the bright twinkling golden star in the night sky next to the moon flies closer and closer until it is just outside the glass, twinkling; then, with a sudden magical "poof" of golden sparkles and a little puff of glittering smoke, the star turns into a small white and red rocket with a little glowing flame, hovering just outside the window. Pico jumps with joy, opens the window, climbs out and sits astride on top of the small rocket, then turns and waves at the camera. The rocket stays small; he sits on top of it, never inside. Keep the exact same character design, colors and soft pastel cartoon style. Smooth continuous motion, no cuts, no text.
-FINE ATTESA: Pico seduto sul razzo fuori dalla finestra aperta, saluta.
-(Claude in montaggio: rinforza il "puf" con un lampo e una pioggia di scintille.)
+C2b — La stella diventa il razzo · INIZIO C2b_INIZIO.png · ULTIMO C2b_FINE.png (Firefly)
+(C2b_FINE preparata da Claude: stessa stanza, razzo piccolo DIETRO IL VETRO della finestra chiusa, nel riquadro
+ in basso, con il riflesso del vetro davanti. Il primo tentativo metteva il razzo dentro la stanza: scartato.)
+Static camera; the same pastel bedroom the whole time and the window stays closed the whole time. The little mint-green cartoon character Pico, wearing his round glass space helmet, turns towards the window on the right and looks out. Outside, beyond the window glass, the bright twinkling golden star next to the moon flies closer, always staying outside behind the glass; then, with a sudden magical "poof" of golden sparkles and a little puff of glittering smoke, still outside the window, the star turns into a small white and red rocket with a little glowing flame, hovering in the night sky behind the lower window pane. Pico gasps, jumps with joy and turns back to the camera with a big excited thumbs up. Keep the exact same character design, colors and soft pastel cartoon style. Smooth continuous motion, no cuts, no text.
 
-C2c — Pico sale sul razzo + PONTE MAGICO · INIZIO C2c_INIZIO.png (C2b a 3,2 s) · ULTIMO C3_INIZIO.png · Firefly
-(La C2b si taglia a 3,2 s: razzo dietro il vetro, finestra chiusa. Dopo, Firefly apriva la finestra da sola,
- Pico si sedeva sul mobile e il razzo scendeva: scartato.)
+C2c — Pico sale sul razzo + PONTE MAGICO · INIZIO C2b_FINE.png · ULTIMO C3_INIZIO.png (Firefly)
 The little mint-green cartoon character Pico, wearing his round glass space helmet, runs to the closed window, pushes it open and climbs out through it onto the small white and red rocket hovering just outside, sitting astride on top of it. The rocket always stays outside the window and never comes into the room. Then the camera follows him out through the open window into the snowy night and slowly pulls back, while a wave of golden magic sparkles sweeps across the whole picture: everything it touches transforms from the soft pastel picture-book drawing into the richly painted cartoon world, and we now see the cozy snow-covered brick house with warm glowing windows, with Pico sitting on top of his small rocket next to the window, in his white space suit and round glass helmet, waving. Smooth continuous motion, no cuts, no text.
 
 C3 — FATTA (Firefly). Si usa 0-4,5 s (dopo il razzo cambia forma).
