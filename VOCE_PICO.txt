@@ -1,0 +1,29 @@
+LA VOCE DI PICO — copione in prima persona, ogni battuta dentro la sua scena
+=============================================================================
+Pico parla mentre lo vediamo: ogni battuta cade SOLO nella sua scena e non la supera (durata massima indicata).
+Claude la posiziona sull'azione giusta (es. "puf!" sul lampo della stella).
+
+FILE: una battuta per file, nome P01 ... P12 (vanno bene i vocali di WhatsApp/Telegram, .opus/.m4a/.mp3).
+Per ogni battuta dille 2-3 volte nello stesso file: Claude sceglie la migliore.
+Telefono a 20 cm, stanza silenziosa. La voce un po' rauca va benissimo: la pulisco e la scaldo io.
+
+#    Scena (cosa si vede)                            Battuta di Pico                                         Max
+P01  la pagina in B/N si colora                       "Ciao! Sono Pico... e tu mi hai appena colorato!"       5 s
+P02  si sveglia, vede la stella alla finestra         "Che sonno... Ehi! Quella stella mi sta chiamando!"     5 s
+P03  prende il casco, lo lucida, lo indossa           "Una lucidata al casco... e sono pronto!"               4 s
+P04  la stella si avvicina e diventa razzo            "Guarda! La stella... puf! E' diventata un razzo!"      5 s
+P05  esce sul razzo, esplode la magia                 "Si parte! Tieniti forte!"                              3 s
+P06  decollo, camino, nuvole                          "Su, oltre il camino... oltre le nuvole!"               5 s
+P07  sopra la Terra, la Luna, il coniglietto          "Ciao Terra! Ciao Luna! Ciao coniglietto!"              5 s
+P08  Saturno, il pinguino, gli amici                  "Ciao pinguino! Ciao amici! Che viaggio!"               5 s
+P09  ritorno e atterraggio davanti a casa             "Ma il posto piu' bello... e' casa mia."                 4 s
+P10  posa il casco, si infila nel letto               "Il casco al suo posto... e adesso a nanna."            4 s
+P11  dorme (sussurrato, assonnato)                    "Buonanotte..."                                          2 s
+P12  la casa con l'albero e la cometa                 "Grazie per i miei colori! Buon Natale!"                4 s
+Scritta finale (solo testo): "I colori che gli hai regalato restano per sempre."
+
+MUSICA SCELTA (analisi di Claude)
+ 3.mp3  dolce, piano (68 s)          -> camera all'inizio (risveglio) e camera alla fine (nanna): il tema ritorna, il cerchio si chiude
+ 2.mp3  arco: intro, crescendo, pausa, crescendo (148 s) -> avventura: parte sul lampo magico, la pausa cade sul ritorno a casa
+ 1.mp3  energica e uguale dall'inizio alla fine (136 bpm) -> non usata (toglierebbe la magia)
+ Sotto la voce la musica si abbassa da sola (ducking); effetti: tintinnii sul "puf", sul lampo magico e sulla cometa.
