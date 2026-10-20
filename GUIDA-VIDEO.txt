@@ -19,7 +19,7 @@ SCALETTA COMPLETA (in ordine di visione)
  2  C1     Pico si sveglia, la stella fa l'occhiolino           Leonardo   CAMERA_COLORI -> (libera)          FATTA (stella viva aggiunta)
  3  C2a    prende il casco dal mobiletto e lo indossa           Leonardo   ultimo fot. C1 -> (libera)          FATTA
  4  C2b    la stella e' il razzo: arriva, Pico ci sale          Leonardo   ultimo fot. C2a -> (libera)         FATTA (corretta)
- 5  C2c    PONTE: esce dalla finestra, diventa il mondo fuori   Leonardo   ultimo fot. C2b -> C3_INIZIO       da fare
+ 5  C2c    PONTE: esce dalla finestra, diventa il mondo fuori   Leonardo   ultimo fot. C2b -> C3_INIZIO       FATTA
  6  C3     decollo e anello di fumo (si usa 0-4,5 s)            Firefly    C3_INIZIO                          FATTA
  7  C3b    PONTE: dal cielo di casa allo spazio sopra la Terra  Firefly    C3b_INIZIO -> C3b_FINE              FATTA (intera)
  8  C4-C5  montaggio.mp4 0-15,75 s (Terra, Luna, Saturno)       -          -                                  FATTA
@@ -29,6 +29,8 @@ SCALETTA COMPLETA (in ordine di visione)
 12  C8b-R  posa il casco, si corica (montata al contrario)      Leonardo   CAMERA_COLORI                      FATTA
 13  C9     dorme sereno + FRASE FINALE                          Leonardo   CAMERA_COLORI -> (libera)          FATTA
  * C7c: prova prima su Firefly; se rifiuta l'ultima immagine, falla su Leonardo.
+
+VIDEO COMPLETO: PICO_COMPLETO_v1.mp4 (111 s, 1280x720, senza audio)
 
 FILE SU GITHUB (pronti per il montaggio)
  C0.mp4 · C3.mp4 (usare 0-4,5 s) · C3b.mp4 · montaggio.mp4 · C5b.mp4 (GIA' CORRETTA) · C7c.mp4 (GIA' CORRETTA)
