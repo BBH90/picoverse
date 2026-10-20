@@ -43,15 +43,11 @@ COSA FA CLAUDE
  - titolo iniziale e frase finale come gia' impostata
  - mix: voce in primo piano, musica bassa sotto, sfumata alla fine
 
-CHIUSURA NATALIZIA (specchio dell'entrata: si esce dalla finestra come si era entrati)
- C9 (fatta)  Pico dorme, nessuna scritta
- C9b PONTE (Leonardo, MiniMax H3, Start + End frame) — dalla camera alla finestra vista da fuori
-   START: C9b_INIZIO.png (ultimo fotogramma di C9)   END: C10_INIZIO.png (finestra illuminata da fuori)
-   Prompt:
-The camera slowly glides away from the little sleeping mint-green character Pico, towards the window on the right of the pastel bedroom, and passes softly through the window glass into the snowy night. Outside, the camera gently turns around and we see, from outside, the warm glowing bedroom window with green shutters on the snow-covered brick wall, with snowflakes falling. As the camera passes through the glass, the soft pastel picture-book drawing gently turns into the painted cartoon style of the outside world. Slow, dreamy, smooth continuous camera move, no cuts, no text.
-   Negative: fast motion, flicker, morphing characters, extra characters, text, watermark
- C10 (Firefly) — dalla finestra alla casa intera, luci dell'albero, la finestra si spegne
-   INIZIO: C10_INIZIO.png   ULTIMO: (nessuna)
-   Prompt:
-The camera slowly and smoothly pulls back from the warm glowing window with green shutters on the snowy brick wall, rising gently, until the whole cozy snow-covered brick house is revealed in the snowy night, with the Christmas tree on the right and the small white and red rocket parked in the snow on the left. Snow falls softly the whole time. The colorful lights on the Christmas tree start to twinkle and its golden star glows brighter. At the very end, the warm light in that window softly switches off, as if someone has just fallen asleep, while the rest of the house keeps glowing. Calm, magical, cozy Christmas night. Keep the exact same colors and cartoon style. Smooth continuous motion, no cuts, no characters, no text.
- Sovrimpressione (Claude) su C10: "I colori che gli hai regalato / restano per sempre." poi "Buon Natale!" quando la luce si spegne.
+CHIUSURA NATALIZIA — UNA SOLA CLIP C9b (Leonardo, MiniMax H3, durata massima disponibile, Start + End)
+ START: C9b_INIZIO.png (Pico che dorme)   END: C9b_FINE.png (casa innevata intera con l'albero)
+ La camera arretra dentro la stanza, esce attraverso la finestra CHIUSA (si vede Pico che dorme da dietro il vetro),
+ continua ad arretrare e sale fino alla casa intera con l'albero. Claude aggiunge la stella cometa sopra la casa
+ e le frasi in sovrimpressione ("I colori che gli hai regalato / restano per sempre." poi "Buon Natale!").
+Prompt:
+One single slow continuous camera move backwards. The camera gently pulls back from the little mint-green character Pico sleeping peacefully in his bed in the pastel bedroom, and keeps moving back out through the closed window glass without opening it: from outside, through the window, we still see Pico sleeping in his warm cozy room. The camera keeps pulling back and rising slowly into the snowy night, while the soft pastel picture-book look gently turns into the painted cartoon style, until the whole cozy snow-covered brick house is revealed, with warm glowing windows, the Christmas tree with twinkling lights on the right and the small white and red rocket parked in the snow. Snow falls softly the whole time. A shooting star crosses the starry sky above the house. Calm, magical, dreamy, smooth continuous motion, no cuts, no text.
+Negative: fast motion, flicker, morphing characters, extra characters, open window, text, watermark, blurry
