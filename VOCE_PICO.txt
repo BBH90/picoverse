@@ -37,3 +37,15 @@ MONTAGGIO v5 (PICO_FINALE_v5.mp4, 1:56)
  Scritte: titolo 0:00-0:06; sottotitolo della battuta; finale "I colori che gli hai regalato / restano per sempre." (1:48) e "Buon Natale!" (1:50.5).
  Prossime battute: P03 0:13-0:19 · P04 0:19.5-0:25 · P05 0:27.5-0:30 · P06 0:33.5-0:44 · P07 0:44-0:55 · P08 0:55-1:11 ·
                    P09 1:11-1:18 · P10 1:32-1:37 · P11 1:38-1:44 · P12 1:45-1:52
+
+MONTAGGIO v6 (PICO_FINALE_v6.mp4, 1:56) — Pico parla e muove la bocca
+ Vocali del bimbo in voce_pico/ (WA0000-WA0009), puliti e scaldati. Posizioni nel video:
+  0:11.5 "Ciao, sono Pico! Come va?" (C1, bocca animata)       0:18.4 "Sono pronto!" (C2a, dietro il casco)
+  0:21.3 "Guarda! Puf!" (C2b, di spalle; "Puf" sul lampo)      0:25.6 "Si parte!" (C2c)
+  0:42.8 "Che bello!" (sopra la Terra)                          0:50.4 "Ciao Luna!" (Luna e coniglietto)
+  1:07.8 "Ciao amici!" (Saturno e amici)                        1:15.0 "Casa mia!" (ritorno, Pico piccolo)
+  1:36.0 "A nanna..." (bocca disegnata che si apre)            1:38.6 "Buonanotte..." (sussurrato, bocca disegnata)
+  1:50.6 "Buon Natale!" (sulla casa, con la scritta)
+ Bocca: dove Pico ha la bocca aperta la si apre/chiude seguendo la voce (rimpicciolita/allungata, tracciata);
+ dove ha la bocca chiusa (nanna, sonno) viene disegnata una bocca aperta nello stesso stile che si apre col volume.
+ Sottotitoli in basso per ogni battuta.
