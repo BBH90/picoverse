@@ -43,3 +43,10 @@ VOCI GENERATE (ElevenLabs, sito; modello Eleven Multilingual v2, oppure v3 per i
    "A cute cartoon character voice: a small, playful, curious creature, young and bright, slightly husky and raspy, high but not squeaky, full of wonder, speaking Italian."
    Se il piano gratuito non ha Voice Design: Voice Library, cerca "cartoon", "child-like character", "animated" con lingua italiana.
  Salva le due voci e usale sempre le stesse. File: N01..N12 (narratore), P01..P03 (Pico).
+
+MONTAGGIO v7 (PICO_FINALE_v7.mp4, 1:59) — voci generate (ElevenLabs): narratore = voce A, Pico = voce Pico
+ Tempi: N01 0:00 · N02 0:08.6 · P01 0:11.9 (bocca animata, Pico ci guarda) · N03 0:14 · N04 0:18.6 · puf 0:22.3 ·
+        P02 0:23.3 (si gira a bocca aperta) · N05 0:26 · N06 0:34 · N07 0:46.6 · N08 0:56.4 · N09 1:14.5 ·
+        P03 1:33.9 (mentre si toglie il casco) · N10 1:35 · N11 1:38.6 (sussurro) · N12 1:47.6 · "Buon Natale!" 1:53.4
+ Voci: narratore vicino e caldo con leggera stanza; Pico con l'eco della cameretta; sussurro piu' basso.
+ Sottotitoli: bianco = narratore, oro = Pico. File originali in voci_generate/.
