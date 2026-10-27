@@ -50,3 +50,6 @@ MONTAGGIO v7 (PICO_FINALE_v7.mp4, 1:59) — voci generate (ElevenLabs): narrator
         P03 1:33.9 (mentre si toglie il casco) · N10 1:35 · N11 1:38.6 (sussurro) · N12 1:47.6 · "Buon Natale!" 1:53.4
  Voci: narratore vicino e caldo con leggera stanza; Pico con l'eco della cameretta; sussurro piu' basso.
  Sottotitoli: bianco = narratore, oro = Pico. File originali in voci_generate/.
+
+MONTAGGIO v8 (PICO_FINALE_v8.mp4): N08 nuova ("...gli anelli dei pianeti, e tanti nuovi amici.");
+ il pianeta ad anelli di sinistra nella scena di Saturno (0:55-1:12) ricolorato in viola, seguito fotogramma per fotogramma.
