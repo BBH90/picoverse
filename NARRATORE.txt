@@ -1,0 +1,33 @@
+PICO TI SALUTA — VOCE NARRANTE (generata) + VOCE DI PICO (vera, 3 battute)
+==========================================================================
+Due voci ben distinte:
+ NARRATORE = adulto, caldo, medio-grave, lento, sorridente: un genitore che legge una fiaba della buonanotte.
+ PICO      = la voce vera del bimbo, acuta e vivace, solo in 3 momenti (dentro la scena).
+
+COME GENERARE IL NARRATORE (una frase per file: N01.mp3 ... N10.mp3, stessa voce e stesse impostazioni per tutte)
+ Adobe Firefly -> Genera voce (Generate Speech)  oppure  ElevenLabs (sito, piano gratuito)
+ Lingua: italiano. Voce: adulta, calda, morbida, da narratore di fiabe (non annunciatore, non pubblicitaria).
+ Velocita': leggermente rallentata (circa 0,9). ElevenLabs: Stability ~50%, Similarity ~75%, Style 0-15%.
+ Se il tono esce troppo "radiofonico": scegli un'altra voce, non cambiare il testo.
+ Nomi file ESATTI: N01 ... N10 (mp3 o wav).
+
+#    Quando (nel video)   Durata max   Testo (copiare esattamente, punteggiatura compresa)
+N01  0:00-0:09            8 s          C'era una volta una pagina in bianco e nero... finché qualcuno, con i suoi colori, non l'ha fatta svegliare.
+     [PICO 0:11  "Ciao, sono Pico! Come va?"  — voce vera]
+N02  0:14-0:19            5 s          Pico sogna in grande. Prende il suo casco, lo lucida per bene...
+N03  0:19-0:25            6 s          ...quando una stella si avvicina alla finestra e... puf! Si trasforma in un razzo!
+N04  0:26-0:33            5 s          Basta un salto, e tutto intorno a lui si accende di magia.
+N05  0:35-0:44            6 s          Oltre il camino, oltre le nuvole... su, su, fino alle stelle.
+N06  0:46-0:55            5 s          La Terra, la Luna, il coniglietto che lo saluta...
+N07  0:57-1:10            5 s          ...gli anelli di Saturno, e tanti nuovi amici.
+N08  1:12-1:22            5 s          Ma ogni viaggio, prima o poi, riporta a casa.
+N09  1:30-1:37            6 s          Il casco torna al suo posto, e Pico si infila sotto le coperte.
+     [PICO 1:38  "Buonanotte..."  sussurrato — voce vera]
+N10  1:46-1:50            4 s          I colori che gli hai regalato restano per sempre.
+     [PICO 1:50  "Buon Natale!"  — voce vera]
+
+COSA FA CLAUDE AL MONTAGGIO
+ - tolte le bocche animate a mano (resta solo il saluto iniziale, dove la bocca e' gia' aperta nel disegno)
+ - narratore: voce calda e vicina, leggermente "da libro", sempre uguale; musica abbassata dolcemente sotto
+ - Pico dentro la scena: eco di cameretta nel saluto, sussurro intimo nella nanna, aria aperta e neve nel "Buon Natale!"
+ - frasi del narratore in sovrimpressione come le pagine di un libro
