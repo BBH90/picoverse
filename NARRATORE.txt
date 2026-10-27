@@ -1,30 +1,34 @@
-PICO TI SALUTA — VOCE NARRANTE (generata) + VOCE DI PICO (vera, 3 battute)
+PICO TI SALUTA — VOCE NARRANTE (generata) + VOCE DI PICO (vera, 4 battute)
 ==========================================================================
 Due voci ben distinte:
  NARRATORE = adulto, caldo, medio-grave, lento, sorridente: un genitore che legge una fiaba della buonanotte.
- PICO      = la voce vera del bimbo, acuta e vivace, solo in 3 momenti (dentro la scena).
+ PICO      = la voce vera del bimbo, acuta e vivace, solo in 4 momenti (dentro la scena).
 
-COME GENERARE IL NARRATORE (una frase per file: N01.mp3 ... N10.mp3, stessa voce e stesse impostazioni per tutte)
+COME GENERARE IL NARRATORE (una frase per file: N01.mp3 ... N12.mp3, stessa voce e stesse impostazioni per tutte)
  Adobe Firefly -> Genera voce (Generate Speech)  oppure  ElevenLabs (sito, piano gratuito)
  Lingua: italiano. Voce: adulta, calda, morbida, da narratore di fiabe (non annunciatore, non pubblicitaria).
  Velocita': leggermente rallentata (circa 0,9). ElevenLabs: Stability ~50%, Similarity ~75%, Style 0-15%.
  Se il tono esce troppo "radiofonico": scegli un'altra voce, non cambiare il testo.
- Nomi file ESATTI: N01 ... N10 (mp3 o wav).
+ Nomi file ESATTI: N01 ... N12 (mp3 o wav).
 
-#    Quando (nel video)   Durata max   Testo (copiare esattamente, punteggiatura compresa)
-N01  0:00-0:09            8 s          C'era una volta una pagina in bianco e nero... finché qualcuno, con i suoi colori, non l'ha fatta svegliare.
-     [PICO 0:11  "Ciao, sono Pico! Come va?"  — voce vera]
-N02  0:14-0:19            5 s          Pico sogna in grande. Prende il suo casco, lo lucida per bene...
-N03  0:19-0:25            6 s          ...quando una stella si avvicina alla finestra e... puf! Si trasforma in un razzo!
-N04  0:26-0:33            5 s          Basta un salto, e tutto intorno a lui si accende di magia.
-N05  0:35-0:44            6 s          Oltre il camino, oltre le nuvole... su, su, fino alle stelle.
-N06  0:46-0:55            5 s          La Terra, la Luna, il coniglietto che lo saluta...
-N07  0:57-1:10            5 s          ...gli anelli di Saturno, e tanti nuovi amici.
-N08  1:12-1:22            5 s          Ma ogni viaggio, prima o poi, riporta a casa.
-N09  1:30-1:37            6 s          Il casco torna al suo posto, e Pico si infila sotto le coperte.
-     [PICO 1:38  "Buonanotte..."  sussurrato — voce vera]
-N10  1:46-1:50            4 s          I colori che gli hai regalato restano per sempre.
-     [PICO 1:50  "Buon Natale!"  — voce vera]
+DIALOGO (versione 2): il narratore parla CON Pico, Pico risponde solo in 4 momenti (voce vera).
+#      Quando   Chi        Testo (copiare esattamente)                                                   Cosa si vede
+N01    0:00     Narratore  C'era una volta una pagina in bianco e nero... finché qualcuno, con i suoi colori, non l'ha fatta svegliare.   la pagina si colora
+N02    0:07     Narratore  Ehi... ciao, Pico! Ti sei svegliato?                                           apre gli occhi, sbadiglia
+PICO   0:11     Pico       "Ciao, sono Pico! Come va?"  (WA voce.opus)                                   ci guarda e risponde
+N03    0:14     Narratore  Stanotte c'è qualcosa di speciale... presto, il casco!                         prende e lucida il casco
+N04    0:19     Narratore  Guarda, Pico... la stella, alla finestra!                                     si gira verso la finestra
+PICO   0:22.8   Pico       stupore: "Wow!" / "Ooooh!" (da registrare, 1 s) oppure "Che bello!" (WA0003)   la stella fa puf e diventa razzo
+N05    0:26     Narratore  Basta un salto, e tutto intorno a lui si accende di magia.                    lampo magico
+N06    0:35     Narratore  Oltre il camino, oltre le nuvole... su, su, fino alle stelle.                  decollo
+N07    0:46     Narratore  La Terra, la Luna, il coniglietto che lo saluta...                            Terra e Luna
+N08    0:57     Narratore  ...gli anelli di Saturno, e tanti nuovi amici.                                 Saturno, pinguino, amici
+N09    1:12     Narratore  Ma ogni viaggio, prima o poi, riporta a casa.                                 ritorno e atterraggio
+N10    1:31     Narratore  Il casco torna al suo posto...                                                rientra dalla finestra, posa il casco
+PICO   1:34     Pico       "Buon Natale!"  (WA0009)                                                       mentre si toglie il casco
+N11    1:39     Narratore  (sussurrato) Buonanotte, Pico...                                               si addormenta
+N12    1:46     Narratore  I colori che gli hai regalato restano per sempre... alla prossima avventura!    la casa, l'albero, la cometa
+ Sussurro: in ElevenLabs (modello v3) scrivi "[whispers] Buonanotte, Pico..."; altrimenti voce normale e la ammorbidisco io.
 
 COSA FA CLAUDE AL MONTAGGIO
  - tolte le bocche animate a mano (resta solo il saluto iniziale, dove la bocca e' gia' aperta nel disegno)
