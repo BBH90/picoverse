@@ -2,7 +2,7 @@ PICO TI SALUTA — VOCE NARRANTE (generata) + VOCE DI PICO (vera, 4 battute)
 ==========================================================================
 Due voci ben distinte:
  NARRATORE = adulto, caldo, medio-grave, lento, sorridente: un genitore che legge una fiaba della buonanotte.
- PICO      = la voce vera del bimbo, acuta e vivace, solo in 4 momenti (dentro la scena).
+ PICO      = voce GENERATA da personaggio dei cartoni (non piu' la voce del bimbo), solo in 3 momenti.
 
 COME GENERARE IL NARRATORE (una frase per file: N01.mp3 ... N12.mp3, stessa voce e stesse impostazioni per tutte)
  Adobe Firefly -> Genera voce (Generate Speech)  oppure  ElevenLabs (sito, piano gratuito)
@@ -15,17 +15,17 @@ DIALOGO (versione 2): il narratore parla CON Pico, Pico risponde solo in 4 momen
 #      Quando   Chi        Testo (copiare esattamente)                                                   Cosa si vede
 N01    0:00     Narratore  C'era una volta una pagina in bianco e nero... finché qualcuno, con i suoi colori, non l'ha fatta svegliare.   la pagina si colora
 N02    0:07     Narratore  Ehi... ciao, Pico! Ti sei svegliato?                                           apre gli occhi, sbadiglia
-PICO   0:11     Pico       "Ciao, sono Pico! Come va?"  (WA voce.opus)                                   ci guarda e risponde
+P01    0:11     Pico       Ciao, sono Pico! Come va?                                                      ci guarda e risponde
 N03    0:14     Narratore  Stanotte c'è qualcosa di speciale... presto, il casco!                         prende e lucida il casco
 N04    0:19     Narratore  Guarda, Pico... la stella, alla finestra!                                     si gira verso la finestra
-PICO   0:22.8   Pico       stupore: "Wow!" / "Ooooh!" (da registrare, 1 s) oppure "Che bello!" (WA0003)   la stella fa puf e diventa razzo
+P02    0:22.8   Pico       Wooow!                                                                        la stella fa puf e diventa razzo
 N05    0:26     Narratore  Basta un salto, e tutto intorno a lui si accende di magia.                    lampo magico
 N06    0:35     Narratore  Oltre il camino, oltre le nuvole... su, su, fino alle stelle.                  decollo
 N07    0:46     Narratore  La Terra, la Luna, il coniglietto che lo saluta...                            Terra e Luna
 N08    0:57     Narratore  ...gli anelli di Saturno, e tanti nuovi amici.                                 Saturno, pinguino, amici
 N09    1:12     Narratore  Ma ogni viaggio, prima o poi, riporta a casa.                                 ritorno e atterraggio
 N10    1:31     Narratore  Il casco torna al suo posto...                                                rientra dalla finestra, posa il casco
-PICO   1:34     Pico       "Buon Natale!"  (WA0009)                                                       mentre si toglie il casco
+P03    1:34     Pico       Buon Natale!                                                                  mentre si toglie il casco
 N11    1:39     Narratore  (sussurrato) Buonanotte, Pico...                                               si addormenta
 N12    1:46     Narratore  I colori che gli hai regalato restano per sempre... alla prossima avventura!    la casa, l'albero, la cometa
  Sussurro: in ElevenLabs (modello v3) scrivi "[whispers] Buonanotte, Pico..."; altrimenti voce normale e la ammorbidisco io.
@@ -35,3 +35,11 @@ COSA FA CLAUDE AL MONTAGGIO
  - narratore: voce calda e vicina, leggermente "da libro", sempre uguale; musica abbassata dolcemente sotto
  - Pico dentro la scena: eco di cameretta nel saluto, sussurro intimo nella nanna, aria aperta e neve nel "Buon Natale!"
  - frasi del narratore in sovrimpressione come le pagine di un libro
+
+VOCI GENERATE (ElevenLabs, sito; modello Eleven Multilingual v2, oppure v3 per il sussurro)
+ NARRATORE: Voice Design / "Text to Voice" con questa descrizione (oppure Voice Library, lingua italiana, categoria storyteller):
+   "A warm, gentle Italian storyteller in her forties, soft and calm, slow pace, smiling, like a parent reading a bedtime fairy tale. Natural, not radio-like."
+ PICO: Voice Design con questa descrizione (parte dal timbro del bimbo: giovane e leggermente rauco):
+   "A cute cartoon character voice: a small, playful, curious creature, young and bright, slightly husky and raspy, high but not squeaky, full of wonder, speaking Italian."
+   Se il piano gratuito non ha Voice Design: Voice Library, cerca "cartoon", "child-like character", "animated" con lingua italiana.
+ Salva le due voci e usale sempre le stesse. File: N01..N12 (narratore), P01..P03 (Pico).
