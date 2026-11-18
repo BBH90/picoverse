@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Il Viaggio Spaziale di Pico - anteprima</title>
+<meta name="description" content="Il calendario dell'Avvento da colorare con una sorpresa animata.">
+<style>
+  :root { --sky:#0e163a; --gold:#ffd64a; --text:#eef1ff; }
+  * { box-sizing:border-box; }
+  body { margin:0; min-height:100vh; background:var(--sky) radial-gradient(circle at 50% 0%, #26306b 0%, var(--sky) 60%);
+         color:var(--text); font-family:"Arial Rounded MT Bold", "Nunito", system-ui, sans-serif;
+         display:flex; flex-direction:column; align-items:center; padding:20px 16px 32px; text-align:center; }
+  h1 { color:var(--gold); font-size:clamp(26px,7vw,40px); margin:8px 0 4px; }
+  p.sub { margin:0 0 16px; font-size:clamp(15px,4vw,18px); opacity:.9; }
+  .player { width:100%; max-width:380px; border-radius:22px; overflow:hidden; box-shadow:0 10px 40px rgba(0,0,0,.45);
+            border:3px solid rgba(255,214,74,.6); background:#000; }
+  video { display:block; width:100%; height:auto; }
+  .tip { margin-top:14px; font-size:15px; opacity:.85; max-width:420px; }
+  .cta { display:inline-block; margin-top:18px; padding:13px 26px; border-radius:30px; background:var(--gold); color:#1a2352; font-weight:bold; text-decoration:none; font-size:17px; }
+  footer { margin-top:26px; font-size:14px; opacity:.7; }
+  footer b { color:var(--gold); }
+</style>
+</head>
+<body>
+  <h1>Il Viaggio Spaziale di Pico</h1>
+  <p class="sub">Calendario dell'Avvento da colorare per bambini 3-6 anni</p>
+  <div class="player">
+    <video src="pico-anteprima.mp4" poster="poster.jpg" controls playsinline preload="metadata"></video>
+  </div>
+  <p class="tip">24 tavole, una al giorno fino a Natale. E alla fine del viaggio... una sorpresa che si scopre solo all'ultima pagina del libro!</p>
+  <a class="cta" href="https://www.amazon.it/dp/B0HQ68Q7QC" target="_blank" rel="noopener">Il libro su Amazon</a>
+  <footer><b>Picoverse</b> · Le avventure di Pico</footer>
+</body>
+</html>
