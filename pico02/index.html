@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pico e Trippy prendono vita!</title>
+<meta name="description" content="La sorpresa finale del libro Pico e il pianeta dei dinosauri.">
+<style>
+  :root { --sky:#5fd3fd; --teal:#0e585c; --orange:#ff8c3c; --plum:#4a2062; --cream:#fff7e4; }
+  * { box-sizing:border-box; }
+  body { margin:0; min-height:100vh; background:linear-gradient(180deg, var(--sky) 0%, #2fa9b0 45%, var(--teal) 100%);
+         color:var(--cream); font-family:"Arial Rounded MT Bold", "Nunito", system-ui, sans-serif;
+         display:flex; flex-direction:column; align-items:center; padding:20px 16px 32px; text-align:center; }
+  h1 { color:var(--orange); font-size:clamp(28px,7.5vw,46px); margin:8px 0 4px; line-height:1.05;
+       text-shadow: 0 3px 0 var(--plum), 2px 0 0 var(--plum), -2px 0 0 var(--plum), 0 -2px 0 var(--plum); }
+  p.sub { margin:4px 0 16px; font-size:clamp(15px,4vw,18px); color:#fff; }
+  .player { width:100%; max-width:760px; border-radius:22px; overflow:hidden; box-shadow:0 10px 40px rgba(0,0,0,.35);
+            border:4px solid var(--orange); background:#000; }
+  video, img { display:block; width:100%; height:auto; }
+  .soon { padding:14px; background:var(--cream); color:var(--plum); font-size:18px; }
+  .tip { margin-top:14px; font-size:15px; max-width:460px; }
+  footer { margin-top:26px; font-size:14px; opacity:.85; }
+  footer b { color:var(--orange); }
+</style>
+</head>
+<body>
+  <h1>Pico e Trippy<br>prendono vita! ✨</h1>
+  <p class="sub">Hai seguito tutte le impronte… ecco la sorpresa!</p>
+  <div class="player" id="player">
+    <!-- il cartone completo va qui: <video src="pico-trippy.mp4" poster="poster.jpg" controls playsinline preload="metadata"></video> -->
+    <img src="poster.jpg" alt="Pico, Trippy e i dinosauri">
+    <div class="soon">🦕 Il cartone di Pico e Trippy sta arrivando!<br>Torna presto a trovarci su questa pagina.</div>
+  </div>
+  <p class="tip">Intanto guarda Pico che ti saluta: <a style="color:var(--orange)" href="anteprima/">l'anteprima</a></p>
+  <footer><b>Picoverse</b> · Pico e il pianeta dei dinosauri</footer>
+</body>
+</html>
